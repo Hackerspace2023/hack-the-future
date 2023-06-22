@@ -8,7 +8,7 @@ const SponserItem = props => {
                 <h3 className="sponsored-heading second-heading">{props.name}</h3>
                 <div className="sponsors-area sponsors-area-nogap sponsors-area-noshadow">
                     <div className="single">
-                        <a className="" href={props.website} target="_blank"><img
+                        <a className="" href={props.website}><img
                             src={props.image} alt="sponsor"/></a>
                     </div>
                 </div>
