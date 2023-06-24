@@ -12,9 +12,9 @@ img {
 }
 
 .slider {
-    margin-top: 70px;
+    margin-top: 40px;
     background-color: #66FCF1;
-    padding: 8rem 2rem;
+    padding: 4rem 1rem;
 }
 
 @keyframes scroll {
