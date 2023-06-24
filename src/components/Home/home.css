@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../footer/assets/footer-bg.jpg) center no-repeat;
+    /* background: #000; */
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    text-transform: uppercase;
+    position: relative;
+    /* top: -10%; */
+}
+
+.hackathon-title {
+    font-size: 5rem;
+    color: #fff;
+    font-weight: bold;
+    animation: fadeIn 1s;
+    margin-top: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.hackathon-title span {
+    font-size: 4rem;
+    font-family: 'Londrina Outline', cursive;
+    text-shadow: 0 0 5px #02f2fa,
+        0 0 10px #02f2fa,
+        0 0 15px #02f2fa,
+        0 0 20px #02f2fa,
+        0 0 25px #02f2fa,
+        0 0 30px #02f2fa;
+
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12rem;
+    position: relative;
+
+}
+
+.left-section {
+    text-align: center;
+    position: relative;
+    top: -10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-section {
+    text-align: left;
+    width: 700px;
+}
+
+h1 {
+    color: #333;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    animation: fadeIn 1s;
+}
+
+.hackerspace {
+    color: #ffae00;
+    font-size: 3rem;
+    font-family: Poppins, sans-serif;
+    font-weight: normal;
+    margin-bottom: -10px;
+}
+
+h2 {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    animation: fadeIn 1s;
+}
+
+h3 {
+    color: #555;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    animation: fadeIn 1s;
+    animation: neonGlow 1.5s ease-in-out infinite alternate;
+
+}
+
+.date {
+    margin-top: 0;
+    font-size: 2.5rem;
+    line-height: 5rem;
+    color: #efa506;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.date b {
+    font-size: 8rem;
+}
+
+.date span {
+    color: #999;
+    font-weight: 400;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    animation: zoomIn 1s;
+}
+
+.timer-item-value {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.timer-item-label {
+    font-size: 17px;
+    color: #efa506;
+    font-family: Poppins, sans-serif;
+}
+
+.greetings {
+    font-family: Oswald, sans-serif;
+    font-size: 6rem;
+    color: #fff;
+
+}
+
+.span1 {
+    color: #02f2fa;
+}
+
+.span2 {
+    color: #ffae00;
+}
+
+.span3 {
+    color: #ec398b;
+}
+
+.span4 {
+    color: #554bb9f2;
+}
+
+.home-text {
+    color: #02f2fa;
+    font-size: 1.2rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.college-name a {
+    font-size: 25px;
+    margin-top: 5px;
+    animation: fadeIn 1s;
+    color: #fff;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.college-name a:hover {
+    color: #ffae00;
+}
+
+.college-name a span {
+    color: #ffae00;
+    padding-right: 0.5rem;
+}
+
+.button {
+    display: flex;
+    gap: 2%;
+}
+
+.btn {
+    display: block;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0px 45px 15px;
+    min-width: 150px;
+    transition: 1s;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffae00;
+    color: #000;
+
+}
+
+.btn:hover {
+    border: 2px solid #ffae00;
+    color: #ffae00;
+    background-color: transparent;
+    /* transition: 1s; */
+    /* transform: scaleX(20px); */
+}
+
+.register {
+    transform: rotate(-45deg);
+}
+
+.discord {
+    margin-left: 0;
+    background: #aa78fb;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Media queries for responsive design */
+
+/* Screen size up to 480px */
+@media (max-width: 480px) {
+    .home-container {
+        overflow: hidden;
+        padding-top: 20%;
+        /* margin-bottom: -75%; */
+        padding-bottom: 10%;
+        gap: 2rem;
+    }
+
+    .home-container {
+        flex-direction: column;
+
+    }
+
+    .section {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .title-container {
+        top: -10%;
+        margin-top: 8%;
+
+    }
+
+    .hackathon-title {
+        font-size: 3rem;
+    }
+
+    .hackathon-title span {
+        font-size: 2.5rem;
+    }
+
+    .left-section {
+        top: -18%;
+    }
+
+    .right-section {
+        position: relative;
+        top: -32%;
+    }
+
+    .greetings {
+
+        font-size: 4rem;
+        width: 50%;
+        left: 29%;
+        position: relative;
+
+    }
+
+    .hackerspace {
+        font-size: 2rem;
+        left: 29%;
+        position: relative;
+    }
+
+    .home-text {
+        font-size: 1.2rem;
+        width: 50%;
+        left: 24%;
+        position: relative;
+        text-align: center;
+    }
+
+    .college-name a {
+        font-size: 16px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .register-btn {
+        margin-right: 0;
+    }
+}
+
+
+/* Screen size between 481px and 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+    .home-container {
+        flex-direction: column;
+        padding-top: 20%;
+        /* margin-bottom: -50%; */
+        padding-bottom: 10%;
+        gap: 2rem;
+    }
+
+    .section {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .title-container {
+        top: -10%;
+    }
+
+    .hackathon-title {
+        font-size: 3rem;
+    }
+
+    .hackathon-title span {
+        font-size: 2.5rem;
+    }
+
+    .left-section {
+        top: -18%;
+    }
+
+    .right-section {
+        position: relative;
+        top: -32%;
+    }
+
+    .greetings {
+
+        font-size: 4rem;
+        width: 50%;
+        left: 29%;
+        position: relative;
+
+    }
+
+    .hackerspace {
+        font-size: 2rem;
+        left: 29%;
+        position: relative;
+        margin-bottom: -5px;
+    }
+
+    .home-text {
+        width: 50%;
+        left: 29%;
+        position: relative;
+    }
+
+    .college-name a {
+        font-size: 20px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+}
+
+/* Screen size between 768px and 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+    .home-container {
+        flex-direction: column;
+        padding-top: 20%;
+        /* margin-bottom: -25%; */
+        padding-bottom: 10%;
+    }
+
+    .section {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .title-container {
+        top: -10%;
+    }
+
+    .left-section {
+        top: -18%;
+    }
+
+    .right-section {
+        position: relative;
+        top: -32%;
+    }
+
+    .greetings {
+
+        font-size: 4rem;
+        width: 80%;
+        left: 20%;
+        position: relative;
+
+    }
+
+    .hackerspace {
+        font-size: 2rem;
+        left: 20%;
+        position: relative;
+        margin-bottom: -5px;
+    }
+
+    .home-text {
+        width: 50%;
+        left: 20%;
+        position: relative;
+    }
+
+    .college-name a {
+        font-size: 26px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+}
+
+/* Screen size between 992px and 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .left-section,
+    .right-section {
+        flex-basis: 100%;
+    }
+
+    .home-container {
+        height: 100%;
+        flex-direction: column;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .section {
+        flex-direction: column;
+        gap: 1rem;
+
+    }
+
+    .title-container {
+        top: -20%;
+    }
+
+    .left-section {
+        top: -20%;
+    }
+
+    .right-section {
+        position: relative;
+        /* top: -12%; */
+    }
+
+    .greetings {
+
+        font-size: 6rem;
+        width: 80%;
+        left: 20%;
+        position: relative;
+
+    }
+
+    .hackerspace {
+        font-size: 3rem;
+        left: 20%;
+        position: relative;
+        margin-bottom: -5px;
+    }
+
+    .home-text {
+        font-size: 1.6rem;
+        position: relative;
+        text-align: center;
+
+    }
+
+    .college-name a {
+        font-size: 36px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+}
+
+/* Screen size 1200px and above */
+@media (min-width: 1200px) {
+
+    /* Keep the default styles */
+    .home-container {
+        overflow: hidden;
+    }
+}
