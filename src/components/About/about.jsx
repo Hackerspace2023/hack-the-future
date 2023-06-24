@@ -10,7 +10,7 @@ const About = () => {
                         <div className="col-sm-12 col-md-12">
                             <div className="lgx-about-content-area">
                                 <div className="lgx-heading">
-                                    <h2 className="heading"><span>About</span> Hack The Future<br/> Hackathon 2023</h2>
+                                    <h2 className="heading"><span className="span">About</span> Hack The Future<br/> Hackathon 2023</h2>
                                     <h3 className="subheading"> Meghnad Saha Institute Of Technology's big tech fest is
                                         here .</h3>
                                 </div>

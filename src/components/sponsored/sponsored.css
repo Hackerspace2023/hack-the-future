@@ -1,4 +1,4 @@
-img {
+.slide-image {
     width: 200px;
     height: 200px;
     animation: scroll 30s alternate-reverse infinite;
