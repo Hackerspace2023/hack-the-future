@@ -54,7 +54,7 @@ const Home = () => {
             </div>
             <div className="section">
                 <div className="left-section">
-                    <h3 class="date"><b class="lgx-counter">1</b> <span>July</span></h3>
+                    <h3 class="date"><b class="lgx-counter">28</b> <span>July</span></h3>
                     <div className="timer">
                         <div className="timer-item">
                             <div className="timer-item-value">{timeLeft.days}</div>
@@ -86,7 +86,7 @@ const Home = () => {
 
                     <h1 className='hackerspace'>&#x23;HackerSpace</h1>
                     <h1 className='greetings'>Welcome to Hackathon <span className='span1'>2</span><span className='span2'>0</span><span className='span3'>2</span><span className='span4'>3</span>!</h1>
-                    <p className='home-text'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur ea illum tenetur</p>
+                    <p className='home-text'>"Unlock your potential, solve challenges, and leave your mark at our Hackerthon event."</p>
                     <h3 className='college-name'>
                         <a href="/">
                             <span>
