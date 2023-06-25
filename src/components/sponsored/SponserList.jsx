@@ -1,9 +1,10 @@
 import React from "react";
 import SponserItem from "./SponserItem";
+import './sponsored.css';
 
 const SponserList = props => {
     return (
-        <div>
+        <div className='slide-track'>
             {props.items.map(Sponser => (
                 <SponserItem key={Sponser.id} id={Sponser.id} name={Sponser.sponserName}
                              website={Sponser.sponserWesite}

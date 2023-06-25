@@ -28,7 +28,7 @@ const Navbar = () => {
                 <div className="navbar-container container">
                     <input type="checkbox" name="" id="" />
                     <div className="logo">
-                        <img src={LeftLogo} alt="" />
+                        <img src={LeftLogo} alt="" className="img"/>
                     </div>
                     <div className="hamburger-lines">
                         <span className="line line1"></span>
@@ -45,7 +45,7 @@ const Navbar = () => {
                     </ul>
 
                     <div className="rightLogo">
-                        <img src={LeftLogo} alt="" />
+                        <img src={LeftLogo} alt=""className="right-img" />
                     </div>
                 </div>
             </nav>
