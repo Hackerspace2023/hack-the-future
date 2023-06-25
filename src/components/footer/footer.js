@@ -17,7 +17,7 @@ const footer = () => {
                 <div className="venueContent">
                     <h3 class="footerTitle">Venue Location </h3>
                     <h4 class="date">
-                        01 - 04 March, 2023
+                        28-30 July, 2023
                     </h4>
                     <address className='address'>
                         Meghanad Saha Institute Of Technology, Kolkata <br />
