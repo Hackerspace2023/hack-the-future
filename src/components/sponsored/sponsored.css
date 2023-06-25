@@ -1,58 +1,27 @@
-.lgx-sponsors {
-    background: url(sponsor-bg.jpg) bottom center no-repeat;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover
+.slide-image {
+    width: 200px;
+    height: 200px;
+    animation: scroll 30s alternate-reverse infinite;
 }
 
-.lgx-sponsors .lgx-inner {
-    background: rgba(255, 255, 255, .88)
+.slide-track {
+    width: 100%;
+    display: flex;
+    gap: 3em;
+    overflow: hidden;
 }
 
-.lgx-inner {
-    padding: 13rem 0
+.slider {
+    margin-top: 40px;
+    background-color: #66FCF1;
+    padding: 4rem 1rem;
 }
 
-.lgx-header .lgx-inner {
-    margin: 0 auto
-}
-
-.heading {
-    font-family: Poppins, sans-serif;
-    font-size: 4.2rem;
-    line-height: 6.300000000000001rem;
-    color: #1b273d;
-    font-weight: 900;
-    margin: 0 0 1rem;
-    text-transform: uppercase
-}
-
-.heading {
-    margin: 0
-}
-
-.subheading {
-    font-size: 2rem;
-    line-height: 3rem;
-    color: #1b273d;
-    color: rgba(50, 51, 51, .8);
-    font-weight: 400;
-    margin: 0
-}
-
-.subheading {
-    color: #fff
-}
-
-.subheading {
-    color: #ec398b;
-    font-size: 2rem;
-    line-height: 3rem;
-    font-weight: 400;
-    opacity: 1
-}
-
-.subheading {
-    opacity: .7
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translatex(-1000%);
+    }
 }
