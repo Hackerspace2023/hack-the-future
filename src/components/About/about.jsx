@@ -3,49 +3,26 @@ import './about.css';
 
 const About = () => {
     return (
-        <div id="lgx-about" className="lgx-about">
-            <div className="lgx-inner">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-sm-12 col-md-12">
-                            <div className="lgx-about-content-area">
-                                <div className="lgx-heading">
-                                    <h2 className="heading"><span className="span">About</span> Hack The Future<br/> Hackathon 2023</h2>
-                                    <h3 className="subheading"> Meghnad Saha Institute Of Technology's big tech fest is
-                                        here .</h3>
-                                </div>
-                                <div className="lgx-about-content">
-                                    <p className="text">
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa libero nam
-                                        provident! Natus optio
-                                        error harum aperiam iure nam, doloremque sunt obcaecati dolores voluptate sit
-                                        voluptatum maiores
-                                        modi voluptas, a facilis officiis perspiciatis, veritatis doloribus?
-                                        Consequatur, vel quam, qui
-                                        excepturi blanditiis error expedita dolorem ullam impedit odit quidem mollitia
-                                        sapiente, ex
-                                        voluptatem deserunt dignissimos asperiores. Aperiam ipsa iste labore facilis,
-                                        dolore aspernatur
-                                        veritatis quidem ex a facere ducimus repellat velit, explicabo deserunt
-                                        doloremque itaque tempore
-                                        accusamus voluptatibus. Ea quia, natus voluptates maiores blanditiis nam
-                                        laboriosam quae dignissimos
-                                        officia ex. Quas officia ipsum veritatis voluptatum nulla excepturi saepe alias
-                                        quos sequi!
-                                        Adipisci, repellendus non hic cum fugit officia voluptas totam culpa. Eius,
-                                        similique eum rem quia
-                                        porro quos aliquam dignissimos repudiandae?
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+        <div className="about-section">
+            <div className="about-section-main">
+                <h1>About Us</h1>
+                <hr/>
+                <div className="about-section-sub">
+                    <div className="about-section-sub-left"><img src="Images/About-Us.png" alt="Avatar"/></div>
+                    <div className="about-section-sub-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Euismod lacinia at quis risus
+                        sed vulputate. Tristique risus nec feugiat in fermentum posuere urna nec. Enim ut sem viverra
+                        aliquet eget. Eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus. Est ante in nibh
+                        mauris cursus mattis molestie a iaculis. Scelerisque eu ultrices vitae auctor eu augue ut
+                        lectus. Massa eget egestas purus viverra accumsan. In arcu cursus euismod quis viverra. Egestas
+                        dui id ornare arcu odio ut sem nulla pharetra. Tellus molestie nunc non blandit massa enim nec
+                        dui. Et leo duis ut diam quam. Etiam dignissim diam quis enim lobortis scelerisque. Velit
+                        laoreet id donec ultrices tincidunt arcu non sodales neque. Dignissim enim sit amet venenatis
+                        urna cursus eget. Quisque non tellus orci ac auctor augue mauris augue neque.
                     </div>
                 </div>
             </div>
         </div>
-
-    )
-        ;
-};
-
+    );
+}
 export default About;
