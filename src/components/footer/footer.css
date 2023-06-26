@@ -110,6 +110,7 @@
 }
 
 .socialContent {
+    padding-top: 40px;
     position: relative;
     width: 400px;
 
@@ -174,7 +175,7 @@
     box-shadow: 0 2px 10px rgba(52, 61, 71, .2);
 }
 
-.socialLogo:hover>li:hover a {
+.socialLogo:hover > li:hover a {
     background: #ffae00;
 }
 
@@ -207,7 +208,15 @@
     color: #efa506;
 }
 
-@media (max-width:480px) {
+.mapContent iframe {
+    width: 400px;
+    height: 300px;
+    border: 0;
+    border-radius: 25px;
+    padding-top: 10px;
+}
+
+@media (max-width: 480px) {
     .contentContainer {
         display: flex;
         flex-direction: column;
