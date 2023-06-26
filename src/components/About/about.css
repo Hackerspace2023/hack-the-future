@@ -1,59 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-
-.about-section-main {
-    display: block;
-    padding: 5%;
-    background-color: #060404;
-}
-
-.about-section-main h1 {
-    color: #ffffff;
-    font-family: "Poppins", sans-serif;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 600;
-    letter-spacing: 1px;
-    text-align: center;
-}
-
-hr {
-    display: block;
-    width: 10%;
-    text-align: center;
-    margin: auto auto 2rem;
-    border: 4px solid #fe0000;
-}
-
-.about-section-sub {
-    align-items: center;
+.about-section {
+    position: relative;
     display: flex;
-    gap: 7rem;
-    justify-content: space-between;
-    width: 1200px;
+    align-items: center;
+    height: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
-.about-section-sub-right {
-    font-family: "Poppins", sans-serif;
+.about-left-section {
+    flex: 1;
+    color: #fff;
+}
+
+.about-right-section {
+    flex: 0.5;
+    padding-left: 20px;
+}
+
+.about-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-left-section p {
     font-size: 19px;
-    width: 60%;
-    color: white;
+    line-height: 1.5;
+    margin-bottom: 15px;
 }
 
-@media screen and (max-width: 1025px) {
-    .about-section-sub {
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        padding: 0 2rem;
-        text-align: center;
-        width: 100%;
-        display: flex;
-        gap: 3rem;
-    }
+.hackathon-image {
+    max-width: 100%;
+    height: auto;
+    animation: imageAnimation 1s infinite alternate;
+}
 
-    .about-section-sub-right {
-        width: 90%;
-        font-size: 19px;
-        text-align: center;
+@keyframes imageAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-15px);
     }
 }

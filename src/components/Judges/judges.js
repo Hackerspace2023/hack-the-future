@@ -50,7 +50,7 @@ export default function Judges() {
   ];
 
   return (
-    <><div className="judge-container"></div>
+    <div><div className="judge-container"></div>
       <Swiper
         ref={swiperRef}
         slidesPerView={slidesPerView}
@@ -89,6 +89,6 @@ export default function Judges() {
           </SwiperSlide>
         ))}
       </Swiper>
-    </>
+    </div>
   );
 }
