@@ -50,7 +50,8 @@ hr {
         display: flex;
         gap: 3rem;
     }
-    .about-section-sub-right{
+
+    .about-section-sub-right {
         width: 90%;
         font-size: 19px;
         text-align: center;
