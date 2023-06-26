@@ -36,7 +36,7 @@ const Gallery = () => {
     };
 
     return (
-        <>
+        <div>
             <h1>Gallery</h1>
             <hr />
             <div id="gallery" className="container-fluid">
@@ -165,7 +165,7 @@ const Gallery = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 

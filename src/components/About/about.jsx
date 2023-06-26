@@ -1,28 +1,46 @@
-import React from "react";
-import './about.css';
+import React from 'react';
+import './about.css'; // Import the CSS file
+import aboutImg from "./Assets/img1.svg"
 
-const About = () => {
+const AboutSection = () => {
     return (
         <div className="about-section">
-            <div className="about-section-main">
-                <h1>About Us</h1>
-                <hr/>
-                <div className="about-section-sub">
-                    <div className="about-section-sub-left"><img src="Images/About-Us.png" alt="Avatar"/></div>
-                    <div className="about-section-sub-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Euismod lacinia at quis risus
-                        sed vulputate. Tristique risus nec feugiat in fermentum posuere urna nec. Enim ut sem viverra
-                        aliquet eget. Eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus. Est ante in nibh
-                        mauris cursus mattis molestie a iaculis. Scelerisque eu ultrices vitae auctor eu augue ut
-                        lectus. Massa eget egestas purus viverra accumsan. In arcu cursus euismod quis viverra. Egestas
-                        dui id ornare arcu odio ut sem nulla pharetra. Tellus molestie nunc non blandit massa enim nec
-                        dui. Et leo duis ut diam quam. Etiam dignissim diam quis enim lobortis scelerisque. Velit
-                        laoreet id donec ultrices tincidunt arcu non sodales neque. Dignissim enim sit amet venenatis
-                        urna cursus eget. Quisque non tellus orci ac auctor augue mauris augue neque.
-                    </div>
-                </div>
+            <div className="about-left-section">
+                <h2 className='about-heading'>Welcome to our exhilarating hackathon!</h2>
+                <p>
+                    This is your chance to showcase your skills, push your limits, and create groundbreaking solutions.
+                    Whether you're a coding aficionado, a design guru, or a visionary problem-solver, our hackathon
+                    provides the perfect platform to unleash your creativity and make a lasting impact.
+                </p>
+                <p>
+                    Our hackathon brings together a diverse community of developers, designers, and entrepreneurs who
+                    share a common passion for technology and a drive for positive change. During this intense and
+                    immersive event, you'll have the opportunity to work on real-world challenges, tackle cutting-edge
+                    technologies, and collaborate with like-minded individuals.
+                </p>
+                <p>
+                    We believe in the power of teamwork and encourage participants to form interdisciplinary teams. This
+                    enables the blending of various skill sets and perspectives, fostering innovation and creating an
+                    environment where you can learn from one another. Through teamwork, mentorship, and constant
+                    support, you'll be able to transform your ideas into tangible prototypes or even fully functional
+                    solutions.
+                </p>
+                <p>
+                    Our hackathon also provides access to industry experts, mentors, and sponsors who will be available
+                    to guide you throughout the event. You'll have the opportunity to gain valuable insights, expand
+                    your professional network, and receive feedback on your projects. Additionally, there will be
+                    workshops and speaker sessions covering the latest trends, technologies, and best practices.
+                </p>
+                <p>
+                    Whether you're a seasoned hackathon veteran or a first-timer, we welcome you to join us for an
+                    unforgettable experience. Together, let's create, innovate, and inspire!
+                </p>
+            </div>
+            <div className="about-right-section">
+                <img src={aboutImg} alt="Hackathon-Image" className="hackathon-image"/>
             </div>
         </div>
     );
-}
-export default About;
+};
+
+export default AboutSection;

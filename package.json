@@ -19,7 +19,7 @@
     "react-slick": "^0.29.0",
     "scss": "^0.2.4",
     "slick-carousel": "^1.8.1",
-    "styled-components": "^6.0.0-rc.6",
+    "styled-components": "^5.3.11",
     "swiper": "^9.4.1",
     "web-vitals": "^2.1.4"
   },
