@@ -1,28 +1,249 @@
+.mySwiper{
+  height: 80vh;
+  width: 65vw !important;
+}
 
-.judges-pic{
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
-  font-size: 20px;
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-.judges-text{
-  font-size: 20px;
-  color: #ffae00;
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 320px;
+  height: 193px;
 }
-.card{
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+.swiper-pagination{
+  display: none;
+}
+.content {
+  position: relative;
+  animation: animatop 0.9s cubic-bezier(0.425, 1.140, 0.470, 1.125) forwards;
+}
+
+.judge-card {
+  width: 500px;
+  min-height: 100px;
+  padding: 20px;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.judge-card:after {
+  content: '';
+  display: block;
+  width: 190px;
+  height: 300px;
+  background: cadetblue;
+  position: absolute;
+  animation: rotatemagic 0.75s cubic-bezier(0.425, 1.040, 0.470, 1.105) 1s both;
+}
+
+.badgescard {
+  padding: 10px 20px;
+  border-radius: 3px;
+  background-color: #ececec;
+  width: 480px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  z-index: -1;
+  left: 10px;
+  bottom: 10px;
   display: flex;
-  flex-direction: column;
-}
-.item {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 370px;
+  animation: animainfos 0.5s cubic-bezier(0.425, 1.040, 0.470, 1.105) 0.75s forwards;
+}
+
+.badgescard span {
+  font-size: 1.6em;
+  margin: 0px 6px;
+  opacity: 0.6;
+}
+
+.firstinfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  z-index: 2;
+  position: relative;
+}
+
+.firstinfo img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+.firstinfo .profileinfo {
+  padding: 0px 20px;
+}
+
+.firstinfo .profileinfo h1 {
+  font-size: 1.8em;
+}
+
+.firstinfo .profileinfo h3 {
+  font-size: 1.2em;
+  color: var(--maincolor);
+  font-style: italic;
+}
+
+.firstinfo .profileinfo p.bio {
+  padding: 10px 0px;
+  color: #5a5a5a;
+  line-height: 1.2;
+  font-style: initial;
+}
+
+@keyframes animatop {
+  0% {
+    opacity: 0;
+    bottom: -500px;
+  }
+  100% {
+    opacity: 1;
+    bottom: 0px;
+  }
+}
+
+@keyframes animainfos {
+  0% {
+    bottom: 10px;
+  }
+  100% {
+    bottom: -42px;
+  }
+}
+
+@keyframes rotatemagic {
+  0% {
+    opacity: 0;
+    transform: rotate(-0deg);
+    top: -24px;
+    left: -253px;
+  }
+  100% {
+    transform: rotate(-30deg);
+    top: -24px;
+    left: -78px;
+  }
+}
+
+@media (max-width: 991px) {
+  .mySwiper{
+    height: 80vh;
+    width: 100vw !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .mySwiper{
+    height: 80vh;
+    width: 100vw !important;
+  }
+}
+@media (max-width: 480px) {
+  .mySwiper{
+    height: 50vh;
+    width: 100vw !important;
+  }
+  .profileinfo{
+    font-size: 50%;
+  }
+  .firstinfo img{
+    height: 70px;
+    width: 70px;
+  }
+}
+.mySwiper {
   width: 100%;
-  background-color: transparent;
-  color: #fff;
-  margin: 0px 20px;
-  font-size: 4rem;
-  box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.judge-card {
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.judge-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.judge-card h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.judge-card h3 {
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.judge-card .bio {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+  .judge-card {
+    padding: 10px;
+  }
+
+  .judge-card img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .judge-card h1 {
+    font-size: 20px;
+  }
+
+  .judge-card h3 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .judge-card img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .judge-card h1 {
+    font-size: 18px;
+  }
+
+  .judge-card h3 {
+    font-size: 12px;
+  }
+
+  .judge-card .bio {
+    font-size: 12px;
+  }
 }
