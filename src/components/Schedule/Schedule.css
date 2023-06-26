@@ -1,0 +1,369 @@
+.Schedule-Container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2088de;
+  box-sizing: border-box;
+}
+
+.Schedule-Header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #7ea0bb;
+  background-color: transparent;
+  font-size: 2.5rem;
+  padding: 20px;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+}
+
+.Schedule-Header span {
+  color: rgb(9, 107, 137);
+}
+
+#tabs {
+  /* overflow: hidden; */
+  border-radius: 4px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+  background: rgba(3, 50, 85, 0.5);
+  backdrop-filter: blur(10px);
+  color: #e0eff1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 30rem;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+  overflow: hidden;
+}
+
+#tabs menu {
+  margin-right: 20px;
+  padding: 0;
+  display: flex;
+  gap: 17.25rem;
+  list-style: none;
+  border-bottom: 1px solid #157fb8;
+  justify-self: stretch;
+  justify-content: center;
+  position: sticky;
+  top: -1px;
+  z-index: 1;
+  background-color: #396e8d;
+  justify-content: space-around;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+}
+
+#tabs #b1 {
+  font: inherit;
+  font-size: 0.85rem;
+  background-color: #396e8d;
+  border: none;
+  border-bottom-color: #1a4bec;
+  color: #e0eff1;
+  border-radius: 4px 4px 0 0;
+  padding: 1.50rem 5rem;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+
+#tabs #b1:hover,
+#tabs #b1.active {
+  background-color: #48d9f3;
+  color: #273133;
+}
+
+#tabs #b2 {
+  font: inherit;
+  font-size: 0.85rem;
+  background-color: #396e8d;
+  border: none;
+  border-bottom-color: #1a4bec;
+  color: #e0eff1;
+  border-radius: 4px 4px 0 0;
+  padding: 0.75rem 5rem;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  margin-right: 5px;
+}
+
+#tabs #b2:hover,
+#tabs #b2.active {
+  background-color: #a343ec;
+  color: #273133;
+}
+
+#tabs #b3 {
+  font: inherit;
+  font-size: 0.85rem;
+  background-color: #396e8d;
+  border: none;
+  border-bottom-color: #1a4bec;
+  color: #e0eff1;
+  border-radius: 4px 4px 0 0;
+  padding: 0.75rem 5rem;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  margin-right: 5px;
+}
+
+#tabs #b3:hover,
+#tabs #b3.active {
+  background-color: #d6cd21;
+  color: #273133;
+}
+
+#tab-content {
+  background-color: #7ea0bb;
+  border-radius: 0 4px 4px 4px;
+  padding: 1rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 30rem;
+  height: 25rem;
+  margin: 0 auto;
+}
+
+#tab-content .List {
+  margin: 0.75rem 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+  overflow: auto;
+  padding-right: 1rem;
+}
+
+#tab-content .List li a {
+  text-decoration: none;
+  color: red;
+}
+
+#tab-content .List li a:hover {
+  color: #e0eff1;
+}
+
+#tab-content .List li {
+  background-color: #396e8d;
+  border-radius: 4px;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #e0eff1;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+
+#tab-content .List li:hover {
+  background-color: #48d9f3;
+  color: #273133;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+  #tabs {
+    width: 600px;
+    height: 350px;
+  }
+  #tab-content {
+    width: 100%;
+    height: 100%;
+  }
+  #tabs #b1 {
+    font-size: 0.75rem;
+    padding: 0.75rem 2.7rem;
+  }
+  #tabs #b2 {
+    font-size: 0.75rem;
+    padding: 0.75rem 2.7rem;
+  }
+  #tabs #b3 {
+    font-size: 0.75rem;
+    padding: 0.75rem 2.7rem;
+  }
+  #tab-content .List li {
+    font-size: 1rem;
+  }
+  .Schedule-Header {
+    font-size: 2rem;
+  }
+}
+
+#tab-content .List .Time {
+  font-size: 1rem;
+  color: #f56ce0;
+  font-weight: bold;
+  background-color: #e9f0e4;
+  width: 100%;
+  text-align: center;
+  border-radius: 4px;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #273133;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-in;
+}
+
+#tab-content .List .Place {
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #3eeae1;
+  width: 100%;
+  text-align: center;
+  border-radius: 4px;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #273133;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-in;
+}
+
+#tab-content .List .Place:hover {
+  background-color: #f56ce0;
+  color: #273133;
+}
+
+#tab-content .List .Date {
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  border-radius: 4px;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #273133;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-in;
+}
+
+#tab-content .List .Date:hover {
+  background-color: #f56ce0;
+  color: #273133;
+}
+
+#tab-content .List .Name {
+  font-size: 1rem;
+  color: #f56ce0;
+  font-weight: bold;
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  border-radius: 4px;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #273133;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-in;
+}
+
+#tab-content .List .Name:hover {
+  background-color: #f56ce0;
+  color: #273133;
+}
+
+@media (min-width: 480px) {
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+  #tabs {
+    width: 100%;
+    height: 100%;
+  }
+  #tab-content {
+    width: 100%;
+    height: 100%;
+  }
+  #tabs menu {
+    width: 100%;
+    height: 100%;
+    gap: 5rem;
+  }
+  #tabs #b1 {
+    font-size: 0.75rem;
+    padding: 0.75rem 1.5rem;
+  }
+  #tabs #b2 {
+    font-size: 0.75rem;
+    padding: 0.75rem 1.5rem;
+  }
+  #tabs #b3 {
+    font-size: 0.75rem;
+    padding: 0.75rem 1.5rem;
+  }
+  #tab-content .List li {
+    font-size: 1rem;
+  }
+  .Schedule-Header {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 320px) {
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+  #tabs {
+    width: 100%;
+    height: 100%;
+  }
+  #tab-content {
+    width: 100%;
+    height: 100%;
+  }
+  #tabs menu {
+    width: 100%;
+    height: 100%;
+    gap: 2rem;
+  }
+  #tabs #b1 {
+    font-size: 0.75rem;
+    padding: 0.75rem 2rem;
+  }
+  #tabs #b2 {
+    font-size: 0.75rem;
+    padding: 0.75rem 2rem;
+  }
+  #tabs #b3 {
+    font-size: 0.75rem;
+    padding: 0.75rem 2rem;
+  }
+  #tab-content .List li {
+    font-size: 1rem;
+  }
+  .Schedule-Header {
+    font-size: 2rem;
+  }
+}
