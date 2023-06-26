@@ -1,5 +1,6 @@
 import React from "react";
 import './about.css';
+
 const About = () => {
     return (
         <div id="lgx-about" className="lgx-about">
@@ -9,7 +10,11 @@ const About = () => {
                         <div className="col-sm-12 col-md-12">
                             <div className="lgx-about-content-area">
                                 <div className="lgx-heading">
+<<<<<<< HEAD:src/components/About/about.js
                                     <h2 className="about-heading">About HackerSpace<br/> Hackathon 2023</h2>
+=======
+                                    <h2 className="heading"><span className="span">About</span> Hack The Future<br/> Hackathon 2023</h2>
+>>>>>>> 40544ec6d6879a68f04c698db9dcde2c19e7c8e8:src/components/About/about.jsx
                                     <h3 className="subheading"> Meghnad Saha Institute Of Technology's big tech fest is
                                         here .</h3>
                                 </div>

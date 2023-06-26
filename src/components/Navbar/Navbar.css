@@ -30,7 +30,7 @@
     display: flex;
 }
 
-.logo img {
+.img {
     /* order: 2; */
     width: 60px;
 }
@@ -39,7 +39,7 @@
     position: absolute;
     right: 3%;
 } */
-.rightLogo img {
+.right-img {
     width: 60px;
 }
 
