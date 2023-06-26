@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './home.css'; // Import the CSS file for styling
 
 const Home = () => {
-    const hackathonDate = new Date('2023-07-28');
+    // const hackathonDate = new Date('2023-07-28');
 
     const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
