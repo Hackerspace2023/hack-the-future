@@ -9,12 +9,12 @@ const About = () => {
                         <div className="col-sm-12 col-md-12">
                             <div className="lgx-about-content-area">
                                 <div className="lgx-heading">
-                                    <h2 className="heading">About HackerSpace<br/> Hackathon 2023</h2>
+                                    <h2 className="about-heading">About HackerSpace<br/> Hackathon 2023</h2>
                                     <h3 className="subheading"> Meghnad Saha Institute Of Technology's big tech fest is
                                         here .</h3>
                                 </div>
                                 <div className="lgx-about-content">
-                                    <p className="text">
+                                    <p className="about-text">
                                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa libero nam
                                         provident! Natus optio
                                         error harum aperiam iure nam, doloremque sunt obcaecati dolores voluptate sit

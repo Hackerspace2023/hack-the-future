@@ -294,9 +294,11 @@ h3 {
     }
 
     .hackathon-title {
-        font-size: 3rem;
+        font-size: 2rem;
     }
-
+    .date b {
+        font-size: 6rem;
+    }
     .hackathon-title span {
         font-size: 2.5rem;
     }
@@ -314,21 +316,21 @@ h3 {
 
         font-size: 4rem;
         width: 50%;
-        left: 29%;
+        left: 25%;
         position: relative;
 
     }
 
     .hackerspace {
         font-size: 2rem;
-        left: 29%;
+        /* left: 29%; */
         position: relative;
     }
 
     .home-text {
-        font-size: 1.2rem;
+        font-size: 1rem;
         width: 50%;
-        left: 24%;
+        left: 25%;
         position: relative;
         text-align: center;
     }
@@ -393,7 +395,7 @@ h3 {
 
     .hackerspace {
         font-size: 2rem;
-        left: 29%;
+        /* left: 29%; */
         position: relative;
         margin-bottom: -5px;
     }
@@ -450,7 +452,7 @@ h3 {
 
     .hackerspace {
         font-size: 2rem;
-        left: 20%;
+        /* left: 20%; */
         position: relative;
         margin-bottom: -5px;
     }
@@ -514,7 +516,7 @@ h3 {
 
     .hackerspace {
         font-size: 3rem;
-        left: 20%;
+        /* left: 20%; */
         position: relative;
         margin-bottom: -5px;
     }

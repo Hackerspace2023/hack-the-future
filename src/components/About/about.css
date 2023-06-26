@@ -18,7 +18,7 @@
     text-align: left;
 }
 
-.lgx-about-content-area .lgx-heading .heading {
+.lgx-about-content-area .lgx-heading .about-heading {
     margin: 0;
 }
 
@@ -39,7 +39,7 @@
     margin-top: -1.6rem;
 }
 
-.lgx-heading .heading {
+.lgx-heading .about-heading {
     font-family: Oswald, sans-serif;
     font-size: 4.2rem;
     line-height: 6.300000000000001rem;
@@ -63,7 +63,7 @@
     margin: 0 .3rem;
 }
 
-.text {
+.about-text {
     font-family: Poppins, sans-serif;
     margin-bottom: 1.6rem;
     font-weight: 400;
