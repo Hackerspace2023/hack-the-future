@@ -1,0 +1,95 @@
+:root {
+    --background: #f2f5f7;
+    --text-primary: #2f4770;
+    --text-secondary: #647780;
+    --white: #ce8d8d;
+  }
+  
+  .faq__container {
+    max-width: 1140px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 10px
+            rgba(0, 0, 0, 0.5));
+  }
+  
+  code {
+    font-family: "source-code-pro", Menlo, Monaco, Consolas, "Courier New";
+  }
+  
+  h1 {
+    font-size: 42px;
+    color: var(--text-primary);
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  
+  .accordion-simple > .active {
+    display: block;
+  }
+  
+  .accordion__faq .inactive {
+    display: none;
+  }
+  
+  .accordion__faq > div {
+    background-color: var(--white);
+    margin-bottom: 20px;
+    padding: 0 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+.accordion__title {
+    color: var(--text-secondary);
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 28px;
+  }
+  
+  .accordion__faq-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .accordion__faq-heading .active {
+    color: var(--text-primary);
+  }
+  
+  .accordion__faq-heading h3 {
+    color: var(--text-secondary);
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .accordion__faq p {
+    margin: 0;
+    padding-bottom: 30px;
+    color: var(--text-secondary);
+    line-height: 1.4;
+  }
+/* ... Existing CSS code ... */
+
+.accordion__faq span.verticle {
+  font-size: 24px;
+  display: inline;
+
+  margin-left: 10px;
+    
+
+}
+.accordion__faq span.horizental{
+    font-size: 24px;
+    display: inline;
+    margin-left: 10px;
+    
+}
+
+
+
+/* ... Existing CSS code ... */
+
+  

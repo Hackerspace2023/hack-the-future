@@ -1,4 +1,9 @@
 .about-section {
+    margin: 10px;
+    padding: 3rem;
+}
+
+.about-sub-section {
     position: relative;
     display: flex;
     align-items: center;
@@ -17,9 +22,21 @@
     padding-left: 20px;
 }
 
-.about-heading {
-    font-size: 24px;
-    margin-bottom: 10px;
+.about-heading-tag-line {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+.about-heading-line {
+    border: 2px solid #ffffff;
+    margin: auto auto 2rem;
+    width: 10%;
+
 }
 
 .about-left-section p {
@@ -32,6 +49,17 @@
     max-width: 100%;
     height: auto;
     animation: imageAnimation 1s infinite alternate;
+}
+
+@media screen and (max-width: 480px) {
+    .about-sub-section {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 2rem;
+        text-align: center;
+        width: 100%;
+    }
 }
 
 @keyframes imageAnimation {
