@@ -78,10 +78,10 @@ export default function Judges() {
                   <div className="profileinfo">
                     <h1>{item.judgeName}</h1>
                     <h3>{item.caption}</h3>
-                    <p className="bio">
+                    {/* <p className="bio">
                       Lived all my life on the top of Mount Fuji, learning the
                       way to be a Ninja Dev.
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>
