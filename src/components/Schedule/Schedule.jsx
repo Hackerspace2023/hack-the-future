@@ -1,79 +1,45 @@
-import { useState } from "react";
-import React from "react";
-import "./Schedule.css";
-import logo from  './Schedule1.svg'
+import React from 'react';
 
-const content = [
-  {
-    time: "11:00-01:00",
-    describe: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi assumenda illo itaque? Quod omnis quo laborum placeat suscipit, itaque quia illo eveniet, quis autem delectus quisquam magni quae vero minima deleniti voluptatibus unde optio! Nobis iusto vitae impedit dicta incidunt quia reiciendis ullam quo quasi architecto, error doloremque deleniti laborum inventore consectetur officiis alias quod optio, quaerat natus delectus! Minus exercitationem ipsa consectetur, expedita eveniet numquam aut. In architecto veritatis aliquam vitae, sint molestiae maiores mollitia. Officia culpa fugit sit praesentium sequi illum, assumenda amet quae, doloribus tempora facere porro.",
-  },
-  {
-    time: "11:00-02:00",
-    describe: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi assumenda illo itaque? Quod omnis quo laborum placeat suscipit, itaque quia illo eveniet, quis autem delectus quisquam magni quae vero minima deleniti voluptatibus unde optio! Nobis iusto vitae impedit dicta incidunt quia reiciendis ullam quo quasi architecto, error doloremque deleniti laborum inventore consectetur officiis alias quod optio, quaerat natus delectus! Minus exercitationem ipsa consectetur, expedita eveniet numquam aut. In architecto veritatis aliquam vitae, sint molestiae maiores mollitia. Officia culpa fugit sit praesentium sequi illum, assumenda amet quae, doloribus tempora facere porro.",
-  },
-  {
-    time: "11:00-03:00",
-    describe: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi assumenda illo itaque? Quod omnis quo laborum placeat suscipit, itaque quia illo eveniet, quis autem delectus quisquam magni quae vero minima deleniti voluptatibus unde optio! Nobis iusto vitae impedit dicta incidunt quia reiciendis ullam quo quasi architecto, error doloremque deleniti laborum inventore consectetur officiis alias quod optio, quaerat natus delectus! Minus exercitationem ipsa consectetur, expedita eveniet numquam aut. In architecto veritatis aliquam vitae, sint molestiae maiores mollitia. Officia culpa fugit sit praesentium sequi illum, assumenda amet quae, doloribus tempora facere porro.",
-  }
-];
+import './Schedule.css'; // Import the CSS file for styling
 
-export default function Scheduled() {
-  const [activeContentIndex, setActiveContentIndex] = useState(0);
-  const activeContent = content.filter(
-    (item, index) => index === activeContentIndex
-  )[0];
 
+const Timeline = () => {
   return (
-      <div className="Schedule-Container">
-        <h1 className="Schedule-Header">
-          Events &nbsp;<span>Schedule</span>
-        </h1>
-        {/* <img src = {logo} className="Schedule__logo"></img> */}
-        <div id="tabs">
-          <menu>
-            <button
-              id="b1"
-              className={activeContentIndex === 0 ? "active" : ""}
-              onClick={() => setActiveContentIndex(0)}
-            >
-              Pre Events
-            </button>
-            <button
-              id="b2"
-              className={activeContentIndex === 1 ? "active" : ""}
-              onClick={() => setActiveContentIndex(1)}
-            >
-              First Day
-            </button>
-            <button
-              id="b3"
-              className={activeContentIndex === 2 ? "active" : ""}
-              onClick={() => setActiveContentIndex(2)}
-            >
-              Second Day
-            </button>
-          </menu>
-          <div id="tab-content">
-            <ul>
-              <div className="List">
-                {activeContent.time && (
-                  <div className="Time">
-                    <strong>Time: </strong>
-                    {activeContent.time}
-                  </div>
-                )}
-                {activeContent.describe && (
-                  <div className="Describe">
-                    <strong></strong>
-                    {activeContent.describe}
-                  </div>
-                )}
-              </div>
-            </ul>
-          </div>
-        </div>
+    <div className="Schedule_main">
+      <h3 className="Schedule_head">Events Schedule</h3>
+      <div className="Schedule_container">
+        <ul>
+          <li>
+            <h3 className="Schedule_heading">Pre Events</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus totam orem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus totam
+            </p>
+            {/* <a href="#">Read More &gt;</a> */}
+            <span className="Schedule_date">28 July 2023</span>
+            <span className="circle"></span>
+          </li>
+          <li>
+            <h3 className="Schedule_heading">First Day</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus totam Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus totam
+            </p>
+            {/* <a href="#">Read More &gt;</a> */}
+            <span className="Schedule_date">29 July 2023</span>
+            <span className="circle"></span>
+          </li>
+          <li>
+            <h3 className="Schedule_heading">Second Day</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus totam Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus totam
+            </p>
+            {/* <a href="#">Read More &gt;</a> */}
+            <span className="Schedule_date">30 July 2023</span>
+            <span className="circle"></span>
+          </li>
+        </ul>
       </div>
-
+    </div>
   );
-}
+};
+
+export default Timeline;
