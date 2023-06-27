@@ -1,249 +1,176 @@
-.mySwiper{
-  height: 80vh;
-  width: 65vw !important;
+:root {
+  --main-col: #c8c;
+  --sec-col: lighten(#303f9f, 20%);
+  --back-col: #c5cae9;
 }
 
-.swiper {
-  width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
 
-.swiper-slide {
-  background-position: center;
-  background-size: cover;
-  width: 320px;
-  height: 193px;
-}
 
-.swiper-slide img {
-  display: block;
-  width: 100%;
-}
-.swiper-pagination{
-  display: none;
-}
-.content {
+.card-one {
   position: relative;
-  animation: animatop 0.9s cubic-bezier(0.425, 1.140, 0.470, 1.125) forwards;
+  width: 300px;
+  background: #fff;
+  box-shadow: 0 10px 7px -5px rgba(0, 0, 0, 0.4);
 }
 
-.judge-card {
-  width: 500px;
-  min-height: 100px;
-  padding: 20px;
-  border-radius: 3px;
-  background-color: white;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+.card-one header {
   position: relative;
-  overflow: hidden;
+  width: 100%;
+  height: 60px;
+  background-color: var(--main-col);
 }
 
-.judge-card:after {
+.card-one header::before,
+.card-one header::after {
   content: '';
-  display: block;
-  width: 190px;
-  height: 300px;
-  background: cadetblue;
-  position: absolute;
-  animation: rotatemagic 0.75s cubic-bezier(0.425, 1.040, 0.470, 1.105) 1s both;
-}
-
-.badgescard {
-  padding: 10px 20px;
-  border-radius: 3px;
-  background-color: #ececec;
-  width: 480px;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
-  position: absolute;
-  z-index: -1;
-  left: 10px;
-  bottom: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  animation: animainfos 0.5s cubic-bezier(0.425, 1.040, 0.470, 1.105) 0.75s forwards;
-}
-
-.badgescard span {
-  font-size: 1.6em;
-  margin: 0px 6px;
-  opacity: 0.6;
-}
-
-.firstinfo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  z-index: 2;
   position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: inherit;
 }
 
-.firstinfo img {
+.card-one header::before {
+  transform: skewY(-8deg);
+  transform-origin: 100% 100%;
+}
+
+.card-one header::after {
+  transform: skewY(8deg);
+  transform-origin: 0 100%;
+}
+
+.card-one header .avatar {
+  position: relative;
+  left: 50%;
+  top: 30px;
+  margin-left: -50px;
+  z-index: 5;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
-  width: 120px;
-  height: 120px;
+  overflow: hidden;
+  background: #ccc;
+  border: 3px solid #fff;
 }
 
-.firstinfo .profileinfo {
-  padding: 0px 20px;
+.card-one header .avatar img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: auto;
 }
 
-.firstinfo .profileinfo h1 {
-  font-size: 1.8em;
+.card-one h3 {
+  position: relative;
+  margin: 80px 0 30px;
+  text-align: center;
+  font-size: 28px;
 }
 
-.firstinfo .profileinfo h3 {
-  font-size: 1.2em;
-  color: var(--maincolor);
-  font-style: italic;
+.card-one h3::after {
+  content: '';
+  position: relative;
+  bottom: -15px;
+  left: 50%;
+  margin-left: -15px;
+  width: 30px;
+  height: 1px;
+  background: #000;
 }
 
-.firstinfo .profileinfo p.bio {
-  padding: 10px 0px;
-  color: #5a5a5a;
-  line-height: 1.2;
-  font-style: initial;
+.card-one .desc {
+  padding: 0 1rem 2rem;
+  text-align: center;
+  line-height: 1.5;
+  color: #777;
 }
 
-@keyframes animatop {
-  0% {
-    opacity: 0;
-    bottom: -500px;
-  }
-  100% {
-    opacity: 1;
-    bottom: 0px;
-  }
-}
-
-@keyframes animainfos {
-  0% {
-    bottom: 10px;
-  }
-  100% {
-    bottom: -42px;
-  }
-}
-
-@keyframes rotatemagic {
-  0% {
-    opacity: 0;
-    transform: rotate(-0deg);
-    top: -24px;
-    left: -253px;
-  }
-  100% {
-    transform: rotate(-30deg);
-    top: -24px;
-    left: -78px;
-  }
-}
-
-@media (max-width: 991px) {
-  .mySwiper{
-    height: 80vh;
-    width: 100vw !important;
-  }
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-  .mySwiper{
-    height: 80vh;
-    width: 100vw !important;
-  }
-}
-@media (max-width: 480px) {
-  .mySwiper{
-    height: 50vh;
-    width: 100vw !important;
-  }
-  .profileinfo{
-    font-size: 50%;
-  }
-  .firstinfo img{
-    height: 70px;
-    width: 70px;
-  }
-}
-.mySwiper {
-  width: 100%;
-  height: 100%;
-}
-
-.content {
+.card-one .contacts {
+  width: 200px;
+  max-width: 100%;
+  margin: 0 auto 3rem;
+  text-align: center;
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100%;
 }
 
-.judge-card {
-  background-color: #fff;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-  border-radius: 8px;
-  padding: 20px;
+.card-one .contacts a {
+  display: block;
+  width: 33.333333%;
+  float: left;
   text-align: center;
+  color: var(--main-col);
+  font-size: 25px;
 }
 
-.judge-card img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  margin-bottom: 20px;
+.card-one .contacts a:hover {
+  color: #333;
 }
 
-.judge-card h1 {
-  font-size: 24px;
-  margin-bottom: 10px;
+.card-one .contacts a .fa {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  line-height: 39px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.3em;
 }
 
-.judge-card h3 {
-  font-size: 16px;
-  color: #888;
-  margin-bottom: 10px;
+.card-one .contacts a .fa:before {
+  position: relative;
+  z-index: 1;
 }
 
-.judge-card .bio {
-  font-size: 14px;
-  color: #555;
+.card-one .contacts a .fa::after {
+  content: '';
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  transform: translate(-50%, -50%);
+  background: var(--main-col);
+  transition: width 0.3s, height 0.3s;
 }
 
-/* Responsive Styles */
-@media (max-width: 767px) {
-  .judge-card {
-    padding: 10px;
-  }
-
-  .judge-card img {
-    width: 120px;
-    height: 120px;
-  }
-
-  .judge-card h1 {
-    font-size: 20px;
-  }
-
-  .judge-card h3 {
-    font-size: 14px;
-  }
+.card-one .contacts a:last-of-type .fa {
+  line-height: 36px;
 }
-
 @media (max-width: 480px) {
-  .judge-card img {
-    width: 100px;
-    height: 100px;
-  }
-
-  .judge-card h1 {
-    font-size: 18px;
-  }
-
-  .judge-card h3 {
-    font-size: 12px;
-  }
-
-  .judge-card .bio {
-    font-size: 12px;
+  /* Styles for screen width up to 480px */
+  .judge-card {
+    width: 250px;
+    margin: 0 150px;
   }
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* Styles for screen width between 481px and 767px */
+  .judge-card {
+    width: 280px;
+    margin: 0 150px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Styles for screen width between 768px and 991px */
+  .judge-card {
+    width: 320px;
+    margin: 0 100px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Styles for screen width between 992px and 1199px */
+  .judge-card {
+    width: 350px;
+    margin: 0 100px;
+    
+  }
+}
+
