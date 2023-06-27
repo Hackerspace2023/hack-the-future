@@ -22,22 +22,6 @@
     padding-left: 20px;
 }
 
-.about-heading-tag-line {
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 600;
-    letter-spacing: 1px;
-    text-align: center;
-    color: #fff;
-    font-family: "Poppins", sans-serif;
-}
-
-.about-heading-line {
-    border: 2px solid #ffffff;
-    margin: auto auto 2rem;
-    width: 10%;
-
-}
 
 .about-left-section p {
     font-size: 19px;

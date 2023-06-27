@@ -6,8 +6,8 @@ const AboutSection = () => {
     return (
         <div className="about-section">
             <div className="about-section-heading">
-                <h1 className='about-heading-tag-line'>Welcome to our exhilarating hackathon!</h1>
-                <hr className='about-heading-line'/>
+                <h1 className='heading-tag-line'>Welcome to our exhilarating hackathon!</h1>
+                <hr className='heading-underline'/>
             </div>
             <div className="about-sub-section">
                 <div className="about-left-section">
