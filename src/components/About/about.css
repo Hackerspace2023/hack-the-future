@@ -10,11 +10,13 @@
     height: 100%;
     padding-left: 2rem;
     padding-right: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .about-left-section {
     flex: 1;
-    color: #fff;
+    color: #dddbdb;
 }
 
 .about-right-section {
@@ -22,35 +24,160 @@
     padding-left: 20px;
 }
 
+.about-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
 
 .about-left-section p {
-    font-size: 19px;
+    font-size: 20px;
     line-height: 1.5;
     margin-bottom: 15px;
+    color: #dddbdb;
 }
 
 .hackathon-image {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     animation: imageAnimation 1s infinite alternate;
-}
-
-@media screen and (max-width: 480px) {
-    .about-sub-section {
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        padding: 0 2rem;
-        text-align: center;
-        width: 100%;
-    }
 }
 
 @keyframes imageAnimation {
     0% {
         transform: translateY(0);
     }
+
     100% {
         transform: translateY(-15px);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .about-section {
+        flex-direction: column;
+    }
+
+    .hackathon-image {
+        width: 439px;
+        height: 100%;
+    }
+
+    .about-left-section {
+        width: 100vw;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .about-right-section {
+        padding: 0;
+    }
+
+    .about-left-section p {
+        font-size: 20px;
+        display: flex;
+        text-align: center;
+    }
+
+    .about-heading {
+        text-align: center;
+        color: #fff;
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-section {
+        flex-direction: column;
+    }
+
+    .hackathon-image {
+        max-width: 353px;
+        height: 361px;
+    }
+
+    .about-left-section {
+        width: 100vw;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .about-right-section {
+        padding: 0;
+    }
+
+    .about-left-section p {
+        font-size: 15px;
+        display: flex;
+        text-align: center;
+    }
+
+    .about-heading {
+        text-align: center;
+        color: #fff;
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .about-section {
+        flex-direction: column;
+    }
+
+    .hackathon-image {
+        max-width: 353px;
+        height: 361px;
+    }
+
+    .about-left-section {
+        width: 100vw;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .about-right-section {
+        padding: 0;
+    }
+
+    .about-left-section p {
+        font-size: 17px;
+        display: flex;
+        text-align: center;
+    }
+
+    .about-heading {
+        text-align: center;
+        color: #fff;
+        font-size: 44px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+
+    .hackathon-image {
+        width: 439px;
+        height: 100%;
+    }
+
+    .about-left-section {
+        width: 100vw;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .about-right-section {
+        padding: 0;
+    }
+
+    .about-left-section p {
+        font-size: 20px;
+        display: flex;
+        /* text-align: center; */
+    }
+
+    .about-heading {
+        /* text-align: center; */
+        color: #fff;
+        font-size: 50px;
     }
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Prize.css"
+
 const Prize = () => {
     const cardData = [
         {
@@ -39,9 +40,9 @@ const Prize = () => {
     return (
         <div>
             <div className="dd_heading">
-                <h3 className="text-center">Prizes</h3>
+                <h3 className="heading-tag-line">Prizes</h3>
+                <hr className="heading-underline"/>
             </div>
-            <hr />
             <main className="page-content">
                 {cardData.map((card, index) => (
                     <div className="d_card" key={index}>
