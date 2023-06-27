@@ -36,10 +36,9 @@ function Accordion() {
   return (
     <>
       <div className="faq__container">
-        <div>
-          <span className="accordion__title">Frequently asked questions</span>
-          <h1>Lets answer some of your questions</h1>
-        </div>
+      <div className="Faq__main">
+      <h3 className="Faq_head">Frequently Asked Question</h3>
+      </div>
         {/* <div className="faq__image">
             <img src={logo} alt="FAQs" />
         </div> */}
@@ -52,9 +51,9 @@ function Accordion() {
               
               <div>
                 {accordion === index ? (
-                  <span className="verticle"></span>
+                  <span className="verticle">-</span>
                 ) : (
-                  <span className="horizental"></span>
+                  <span className="horizental">+</span>
                 )}
               </div>
               <div>
