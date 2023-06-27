@@ -1,6 +1,22 @@
-body{
+body {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
     background: #1f0d3f;
+}
+
+.heading-underline {
+    border: 2px solid #ffffff;
+    margin: auto auto 2rem;
+    width: 10%;
+}
+
+.heading-tag-line {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
 }
