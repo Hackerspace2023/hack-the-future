@@ -1,9 +1,4 @@
 .about-section {
-    margin: 10px;
-    padding: 3rem;
-}
-
-.about-sub-section {
     position: relative;
     display: flex;
     align-items: center;
@@ -13,6 +8,7 @@
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
+
 
 .about-left-section {
     flex: 1;
@@ -25,9 +21,12 @@
 }
 
 .about-heading {
-    font-size: 24px;
+    font-size: 50px;
     margin-bottom: 10px;
+    color: #fff;
 }
+
+
 
 .about-left-section p {
     font-size: 20px;
@@ -37,10 +36,23 @@
 }
 
 .hackathon-image {
-    width: 100%;
+    width: 500px;
     height: auto;
     animation: imageAnimation 1s infinite alternate;
 }
+
+
+@media screen and (max-width: 480px) {
+    .about-sub-section {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 2rem;
+        text-align: center;
+        width: 100%;
+    }
+}
+
 
 @keyframes imageAnimation {
     0% {
