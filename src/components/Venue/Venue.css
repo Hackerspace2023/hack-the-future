@@ -1,0 +1,50 @@
+.venue-section {
+    margin: 10px;
+    padding: 3rem;
+}
+
+.venue-subsection {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.venue-subheading-left {
+    flex: 1;
+}
+
+.venue-subheading-right {
+    flex: 0.5;
+    padding-left: 20px;
+}
+
+.venue-subheading-right iframe {
+    width: 500px;
+    height: 300px;
+    border: 0;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 480px) {
+    .venue-subsection {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 2rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .venue-subheading-right iframe {
+        margin: 20px;
+        width: 300px;
+        height: auto;
+    }
+
+    .date {
+        font-size: 2rem;
+    }
+}

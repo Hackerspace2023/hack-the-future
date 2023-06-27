@@ -9,6 +9,8 @@ import SpecialCard from "./components/ProblemStatement/SpecialCard";
 import Prize from "./components/Prizes/Prize";
 import Scheduled from "./components/Schedule/Schedule";
 import Faq from "./components/Faq/Faq";
+import Venue from "./components/Venue/Venue";
+import Gallery from "./components/Gallery/Gallery";
 
 function App() {
     return (
@@ -17,10 +19,12 @@ function App() {
             <Home/>
             <About/>
             <SpecialCard/>
+            <Venue/>
             <Scheduled/>
             <Prize/>
             <Judges/>
             <Faq/>
+            <Gallery/>
             <Footer/>
         </div>
     );

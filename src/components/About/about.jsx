@@ -4,7 +4,7 @@ import './about.css';
 
 const AboutSection = () => {
     return (
-        <div className="about-section">
+        <div className="about-section" id="About">
             <div className="about-section-heading">
                 <h1 className='heading-tag-line'>Welcome to our exhilarating hackathon!</h1>
                 <hr className='heading-underline'/>
