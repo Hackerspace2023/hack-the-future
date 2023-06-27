@@ -1,94 +1,133 @@
-import React, { useRef, useState, useEffect } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCoverflow, Pagination } from "swiper";
-import "swiper/css";
-import "swiper/css/effect-coverflow";
-import "swiper/css/pagination";
-import "./judges.css";
-import Image1 from "./assets/img1.jpg";
-import Image2 from "./assets/img2.jpg";
-import Image3 from "./assets/img3.jpg";
-import Image4 from "./assets/img4.jpg";
-import Image5 from "./assets/img5.jpg";
-import Image6 from "./assets/img6.jpg";
+import React from "react";
+import ReactCardCarousel from "react-card-carousel";
 
-export default function Judges() {
-  const swiperRef = useRef(null);
-  const [slidesPerView, setSlidesPerView] = useState(2);
+import "./judges.css"
+import Judge1 from "./assets/img1.jpg"
+import Judge2 from "./assets/img2.jpg"
+import Judge3 from "./assets/img3.jpg"
+import Judge4 from "./assets/img4.jpg"
+import Judge5 from "./assets/img5.jpg"
+import Judge6 from "./assets/img6.jpg"
 
-  useEffect(() => {
-    const handleResize = () => {
-      const windowWidth = window.innerWidth;
-      if (windowWidth < 481) {
-        setSlidesPerView(1);
-      } else if (windowWidth >= 481 && windowWidth < 768) {
-        setSlidesPerView(2);
-      } else if (windowWidth >= 768 && windowWidth < 992) {
-        setSlidesPerView(2);
-      } else if (windowWidth >= 992 && windowWidth < 1200) {
-        setSlidesPerView(2);
-      } else {
-        setSlidesPerView(2);
-      }
-    };
 
-    handleResize(); // Set initial slidesPerView value
-    window.addEventListener("resize", handleResize);
+const Judges = () => {
+  const CONTAINER_STYLE = {
+    position: "relative",
+    height: "100vh",
+    width: "100%",
+    display: "flex",
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    overflow: "hidden",
+    margin: "10px"
 
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
+  };
 
-  const items = [
-    { id: 1, image: Image1, judgeName: "Image 1", caption: "Image caption 11" },
-    { id: 2, image: Image2, judgeName: "Image 2", caption: "Image caption 12" },
-    { id: 3, image: Image3, judgeName: "Image 3", caption: "Image caption 13" },
-    { id: 4, image: Image4, judgeName: "Image 4", caption: "Image caption 14" },
-    { id: 5, image: Image5, judgeName: "Image 5", caption: "Image caption 15" },
-    { id: 6, image: Image6, judgeName: "Image 6", caption: "Image caption 16" },
+  const CARD_STYLE = {
+    height: "300px",
+    width: "300px",
+    textAlign: "center",
+    background: "#eee",
+    color: "#000",
+    fontFamily: "sans-serif",
+    fontSize: "14px",
+    textTransform: "uppercase",
+    borderRadius: "3px",
+    margin: "0 200px",
+    boxSizing: "border-box"
+  };
+
+  // Array of card data
+  const cardData = [
+
+    {
+      name: "Jhon Doe",
+      image: Judge1,
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit et cupiditate deleniti.",
+      social: [
+        { name: "LinkedIn", icon: "fa fa-linkedin" },
+      ]
+    },
+    {
+      name: "Jhon Doe",
+      image: Judge2,
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit et cupiditate deleniti.",
+      social: [
+        { name: "LinkedIn", icon: "fa fa-linkedin" },
+      ]
+    },
+    {
+      name: "Jhon Doe",
+      image: Judge3,
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit et cupiditate deleniti.",
+      social: [
+        { name: "LinkedIn", icon: "fa fa-linkedin" },
+      ]
+    },
+    {
+      name: "Jhon Doe",
+      image: Judge4,
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit et cupiditate deleniti.",
+      social: [
+        { name: "LinkedIn", icon: "fa fa-linkedin" },
+      ]
+    },
+    {
+      name: "Jhon Doe",
+      image: Judge5,
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit et cupiditate deleniti.",
+      social: [
+        { name: "LinkedIn", icon: "fa fa-linkedin" },
+      ]
+    },
+    {
+      name: "Jhon Doe",
+      image: Judge6,
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit et cupiditate deleniti.",
+      social: [
+        { name: "LinkedIn", icon: "fa fa-linkedin" },
+      ]
+    },
+    
+
+    // Add more card data objects as needed
   ];
 
   return (
-    <div><div className="judge-container"></div>
-      <Swiper
-        ref={swiperRef}
-        slidesPerView={slidesPerView}
-        loop={true}
-        effect="coverflow"
-        grabCursor={true}
-        centeredSlides={true}
-        coverflowEffect={{
-          rotate: 50,
-          stretch: 2,
-          depth: 100,
-          modifier: 5,
-          slideShadows: true,
-        }}
-        pagination={true}
-        modules={[EffectCoverflow, Pagination]}
-        className="mySwiper"
+    <div style={CONTAINER_STYLE}>
+      <ReactCardCarousel
+        autoplay={true}
+        autoplay_speed={2500}
+        spread={"wide"}
+        disable_box_shadow={true}
       >
-        {items.map((item) => (
-          <SwiperSlide key={item.id}>
-            <div className="content">
-              <div className="judge-card">
-                <div className="firstinfo">
-                  <img src={item.image} alt={`Image ${item.id}`} />
-                  <div className="profileinfo">
-                    <h1>{item.judgeName}</h1>
-                    <h3>{item.caption}</h3>
-                    {/* <p className="bio">
-                      Lived all my life on the top of Mount Fuji, learning the
-                      way to be a Ninja Dev.
-                    </p> */}
-                  </div>
+        {cardData.map((card, index) => (
+          <div key={index} style={CARD_STYLE}>
+            <div className="card-one">
+              <header>
+                <div className="avatar">
+                  <img src={card.image} alt={card.name} />
                 </div>
+              </header>
+
+              <h3>{card.name}</h3>
+              <div className="desc">{card.desc}</div>
+              <div className="contacts">
+                {/* Render social icons */}
+                {card.social.map((social, index) => (
+                  <a key={index} href="">
+                    <i className={social.icon}></i>
+                  </a>
+                ))}
+                <div className="clear"></div>
               </div>
             </div>
-          </SwiperSlide>
+          </div>
         ))}
-      </Swiper>
+      </ReactCardCarousel>
     </div>
   );
-}
+};
+
+export default Judges;
