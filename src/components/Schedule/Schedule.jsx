@@ -9,11 +9,11 @@ const content = [
     describe: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi assumenda illo itaque? Quod omnis quo laborum placeat suscipit, itaque quia illo eveniet, quis autem delectus quisquam magni quae vero minima deleniti voluptatibus unde optio! Nobis iusto vitae impedit dicta incidunt quia reiciendis ullam quo quasi architecto, error doloremque deleniti laborum inventore consectetur officiis alias quod optio, quaerat natus delectus! Minus exercitationem ipsa consectetur, expedita eveniet numquam aut. In architecto veritatis aliquam vitae, sint molestiae maiores mollitia. Officia culpa fugit sit praesentium sequi illum, assumenda amet quae, doloribus tempora facere porro.",
   },
   {
-    time: "11:00-01:00",
+    time: "11:00-02:00",
     describe: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi assumenda illo itaque? Quod omnis quo laborum placeat suscipit, itaque quia illo eveniet, quis autem delectus quisquam magni quae vero minima deleniti voluptatibus unde optio! Nobis iusto vitae impedit dicta incidunt quia reiciendis ullam quo quasi architecto, error doloremque deleniti laborum inventore consectetur officiis alias quod optio, quaerat natus delectus! Minus exercitationem ipsa consectetur, expedita eveniet numquam aut. In architecto veritatis aliquam vitae, sint molestiae maiores mollitia. Officia culpa fugit sit praesentium sequi illum, assumenda amet quae, doloribus tempora facere porro.",
   },
   {
-    time: "11:00-01:00",
+    time: "11:00-03:00",
     describe: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi assumenda illo itaque? Quod omnis quo laborum placeat suscipit, itaque quia illo eveniet, quis autem delectus quisquam magni quae vero minima deleniti voluptatibus unde optio! Nobis iusto vitae impedit dicta incidunt quia reiciendis ullam quo quasi architecto, error doloremque deleniti laborum inventore consectetur officiis alias quod optio, quaerat natus delectus! Minus exercitationem ipsa consectetur, expedita eveniet numquam aut. In architecto veritatis aliquam vitae, sint molestiae maiores mollitia. Officia culpa fugit sit praesentium sequi illum, assumenda amet quae, doloribus tempora facere porro.",
   }
 ];
