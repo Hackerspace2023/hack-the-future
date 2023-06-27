@@ -7,6 +7,8 @@ import Navbar from "./components/Navbar/Navbar";
 import Judges from "./components/Judges/judges";
 import SpecialCard from "./components/ProblemStatement/SpecialCard";
 import Prize from "./components/Prizes/Prize";
+import Scheduled from "./components/Schedule/Schedule";
+import Faq from "./components/Faq/Faq";
 
 function App() {
     return (
@@ -15,8 +17,10 @@ function App() {
             <Home/>
             <About/>
             <SpecialCard/>
+            <Scheduled/>
             <Prize/>
             <Judges/>
+            <Faq/>
             <Footer/>
         </div>
     );
