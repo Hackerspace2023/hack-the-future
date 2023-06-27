@@ -47,7 +47,7 @@ const Home = () => {
 
 
     return (
-        <div className="home-container">
+        <div className="home-container" id="Home">
 
             <div className="title-container">
                 <h2 className="hackathon-title">Hack <span>The</span> Future</h2>

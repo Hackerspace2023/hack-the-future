@@ -69,8 +69,7 @@
 }
 
 .address {
-
-    color: rgba(255, 255, 255, .5);
+    color: rgb(255, 255, 255);
     display: block;
     margin-bottom: 20px;
     font-style: normal;
@@ -79,7 +78,6 @@
     font-style: normal;
     font-weight: 300;
     letter-spacing: 2px;
-
 }
 
 

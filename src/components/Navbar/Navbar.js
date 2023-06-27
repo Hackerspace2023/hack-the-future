@@ -36,8 +36,8 @@ const Navbar = () => {
                         <span className="line line3"></span>
                     </div>
                     <ul className="menu-items">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/">About</a></li>
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#About">About</a></li>
                         <li><a href="/">Category</a></li>
                         <li><a href="/">Menu</a></li>
                         <li><a href="/">Testimonial</a></li>

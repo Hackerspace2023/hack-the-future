@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import "./Gallery.css"
 import img1 from "./assets/ph-1.jpg"
 import img2 from "./assets/ph-2.jpg"
@@ -12,19 +12,20 @@ import img9 from "./assets/e4.jpeg"
 import img10 from "./assets/ph-9.jpg"
 import img11 from "./assets/ph-11.jpg"
 import img12 from "./assets/ph-12.jpeg"
+
 const Gallery = () => {
     const [showModal, setShowModal] = useState(false);
     const [modalContent, setModalContent] = useState(null);
 
     const handleImageClick = (src) => {
-        setModalContent(<img src={src} className="modal-img" alt="Modal Image" />);
+        setModalContent(<img src={src} className="modal-img" alt="Modal Image"/>);
         setShowModal(true);
     };
 
     const handleVideoClick = (src) => {
         setModalContent(
             <video className="modal-vid" controls>
-                <source src={src} type="video/mp4" />
+                <source src={src} type="video/mp4"/>
             </video>
         );
         setShowModal(true);
@@ -37,8 +38,8 @@ const Gallery = () => {
 
     return (
         <div>
-            <h1>Gallery</h1>
-            <hr />
+            <h1 className="heading-tag-line">Gallery</h1>
+            <hr className="heading-underline"/>
             <div id="gallery" className="container-fluid">
                 <img
                     src={img1}
