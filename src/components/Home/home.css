@@ -244,7 +244,10 @@ h3 {
     margin-left: 0;
     background: #aa78fb;
 }
-
+.discord:hover{
+    border: 2px solid #aa78fb;
+    color: #aa78fb;
+}
 @keyframes fadeIn {
     0% {
         opacity: 0;
