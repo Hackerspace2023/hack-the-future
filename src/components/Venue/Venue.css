@@ -14,8 +14,20 @@
 
 .venue-subheading-left {
     flex: 1;
+    color: #fff;
 }
-
+.venue-location a{
+    display: flex;
+    font-size: 20px;
+    text-decoration: none;
+    gap: 10px;
+    font-family: Poppins;
+color: #fff;
+    /* gap: 10px; */
+}
+.venue-location a i{
+    color: #ffae00;
+}
 .venue-subheading-right {
     flex: 0.5;
     padding-left: 20px;
@@ -44,7 +56,13 @@
         height: auto;
     }
 
-    .date {
+    .venue-date {
         font-size: 2rem;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .venue-subsection{
+        flex-direction: column;
     }
 }

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
 import "./Navbar.css"
-import LeftLogo from "../footer/assets/hs_2.png"
+import LeftLogo from "../footer/assets/2-removebg-preview.png"
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
 
@@ -44,9 +44,9 @@ const Navbar = () => {
                         <li><a href="/">Contact</a></li>
                     </ul>
 
-                    <div className="rightLogo">
+                    {/* <div className="rightLogo">
                         <img src={LeftLogo} alt=""className="right-img" />
-                    </div>
+                    </div> */}
                 </div>
             </nav>
         </div>

@@ -74,11 +74,11 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="button">
-                        <button class="btn btn-2 hover-slide-right register-btn">
+                        <button className="btn btn-2 hover-slide-right register-btn">
                             <span>Register Now  <i className="register fa-solid fa-arrow-right"></i></span>
                         </button>
-                        <button class="btn btn-2 hover-slide-right discord">
-                            <span><i class="fa-brands fa-discord"></i> Join Here</span>
+                        <button className="btn btn-2 hover-slide-right discord">
+                            <a href="https://discord.gg/q9vHfn9M">Join Here <i className="fa-brands fa-discord"></i></a>
                         </button>
                     </div>
                 </div>
