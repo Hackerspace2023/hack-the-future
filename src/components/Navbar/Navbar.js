@@ -38,9 +38,12 @@ const Navbar = () => {
                     <ul className="menu-items">
                         <li><a href="#Home">Home</a></li>
                         <li><a href="#About">About</a></li>
-                        <li><a href="/">Category</a></li>
-                        <li><a href="/">Menu</a></li>
-                        <li><a href="/">Testimonial</a></li>
+                        <li><a href="/">Theme</a></li>
+                        <li><a href="/">Venue</a></li>
+                        <li><a href="/">Schedule</a></li>
+                        <li><a href="/">Prizes</a></li>
+                        <li><a href="/">Judges</a></li>
+                        <li><a href="/">Gallery</a></li>
                         <li><a href="/">Contact</a></li>
                     </ul>
 
