@@ -28,11 +28,12 @@
 .menu-items {
     /* order: 1; */
     display: flex;
+    padding: 0 !important;
 }
 
 .img {
     /* order: 2; */
-    width: 60px;
+    width: 200px;
 }
 
 /* .rightLogo{
@@ -149,7 +150,7 @@
     .logo {
         position: absolute;
         top: -2px;
-        right: 11px;
+        right: 130px;
         font-size: 2.5rem;
         width: 50px;
     }
@@ -274,7 +275,7 @@
     .logo {
         position: absolute;
         top: -2px;
-        right: 11px;
+        right: 130px;
         font-size: 2.5rem;
         width: 50px;
     }
