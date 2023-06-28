@@ -5,12 +5,14 @@ import Footer from "./components/footer/footer";
 import Home from "./components/Home/home";
 import Navbar from "./components/Navbar/Navbar";
 import Judges from "./components/Judges/judges";
-import SpecialCard from "./components/ProblemStatement/SpecialCard";
+import Theme from "./components/ProblemStatement/Theme";
 import Prize from "./components/Prizes/Prize";
 import Scheduled from "./components/Schedule/Schedule";
 import Faq from "./components/Faq/Faq";
 import Venue from "./components/Venue/Venue";
 import Gallery from "./components/Gallery/Gallery";
+import Sponser from "./components/sponsored/sponsored";
+
 
 function App() {
     return (
@@ -18,11 +20,12 @@ function App() {
             <Navbar/>
             <Home/>
             <About/>
-            <SpecialCard/>
+            <Theme/>
             <Venue/>
             <Scheduled/>
             <Prize/>
             <Judges/>
+            <Sponser/>
             <Faq/>
             <Gallery/>
             <Footer/>

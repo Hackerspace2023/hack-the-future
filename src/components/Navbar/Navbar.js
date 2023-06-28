@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 import "./Navbar.css"
 import LeftLogo from "../footer/assets/2-removebg-preview.png"
+import footer from "../footer/footer";
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
 
@@ -38,13 +39,13 @@ const Navbar = () => {
                     <ul className="menu-items">
                         <li><a href="#Home">Home</a></li>
                         <li><a href="#About">About</a></li>
-                        <li><a href="/">Theme</a></li>
-                        <li><a href="/">Venue</a></li>
-                        <li><a href="/">Schedule</a></li>
-                        <li><a href="/">Prizes</a></li>
-                        <li><a href="/">Judges</a></li>
-                        <li><a href="/">Gallery</a></li>
-                        <li><a href="/">Contact</a></li>
+                        <li><a href="#Theme">Theme</a></li>
+                        <li><a href="#Venue">Venue</a></li>
+                        <li><a href="#Schedule">Schedule</a></li>
+                        <li><a href="#Prize">Prizes</a></li>
+                        <li><a href="#Judges">Judges</a></li>
+                        <li><a href="#Gallery">Gallery</a></li>
+                        <li><a href="#Footer">Contact</a></li>
                     </ul>
 
                     {/* <div className="rightLogo">

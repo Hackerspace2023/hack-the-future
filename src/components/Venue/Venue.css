@@ -10,6 +10,7 @@
     height: 100%;
     padding-left: 2rem;
     padding-right: 2rem;
+    font-size: 2rem;
 }
 
 .venue-subheading-left {
@@ -34,10 +35,13 @@ color: #fff;
 }
 
 .venue-subheading-right iframe {
-    width: 500px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
     border: 0;
-    border-radius: 30px;
+    border-radius: 10px;
+}
+.venue-location a i{
+    font-size: 1.5rem;
 }
 
 @media screen and (max-width: 480px) {
