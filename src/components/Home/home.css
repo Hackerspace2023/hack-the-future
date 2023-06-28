@@ -68,7 +68,7 @@
 }
 
 .right-section {
-    text-align: left;
+    text-align: center;
     width: 700px;
 }
 
@@ -183,9 +183,11 @@ h3 {
     font-weight: 300;
     letter-spacing: 2px;
 }
+
 .college-name {
     margin: 0;
 }
+
 .college-name a {
     font-size: 25px;
     margin-top: 5px;
@@ -217,7 +219,7 @@ h3 {
     cursor: pointer;
     margin: 0px 45px 15px;
     min-width: 150px;
-    transition: 1s;
+    transition: 0.5s;
     border-radius: 5px;
     font-weight: 600;
     margin-top: 20px;
@@ -226,28 +228,39 @@ h3 {
     background-color: #ffae00;
     color: #000;
 
+
 }
 
 .btn:hover {
     border: 2px solid #ffae00;
     color: #ffae00;
     background-color: transparent;
-    /* transition: 1s; */
-    /* transform: scaleX(20px); */
 }
 
 .register {
     transform: rotate(-45deg);
 }
 
-.discord {
-    margin-left: 0;
-    background: #aa78fb;
+.discord{
+    background-color: #9e52e9;
+}
+.discord a {
+    color: #000;
+    text-decoration: none;
 }
 .discord:hover{
-    border: 2px solid #aa78fb;
-    color: #aa78fb;
+    border: 2px solid #9e52e9;
+    
 }
+.discord:hover>a{
+    color: #9e52e9;
+}
+
+/* .discord a:hover {
+    color: #aa78fb;
+
+} */
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
@@ -299,9 +312,11 @@ h3 {
     .hackathon-title {
         font-size: 2rem;
     }
+
     .date b {
         font-size: 6rem;
     }
+
     .hackathon-title span {
         font-size: 2.5rem;
     }
@@ -391,7 +406,7 @@ h3 {
 
         font-size: 4rem;
         width: 50%;
-        left: 29%;
+        left: 27%;
         position: relative;
 
     }
