@@ -52,10 +52,11 @@
 
 .navbar a {
     color: #fff;
-    color: #03defb; /*Depending on changing color pallet*/
+    /* color: #03defb; Depending on changing color pallet */
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease-in-out;
+    font-size: 16px;
 }
 
 .navbar a:hover {
