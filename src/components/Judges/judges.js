@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import './home.css'; // Import the CSS file for styling
+import React, {useState, useEffect} from 'react';
+import '../Home/home.css'; // Import the CSS file for styling
 
 const Home = () => {
     // const hackathonDate = new Date('2023-07-28');
@@ -47,7 +47,7 @@ const Home = () => {
 
 
     return (
-        <div className="home-container" id="Home">
+        <div className="home-container" id="Judges">
 
             <div className="title-container">
                 <h2 className="hackathon-title">Hack <span>The</span> Future</h2>
@@ -85,8 +85,10 @@ const Home = () => {
                 <div className="right-section">
 
                     <h1 className='hackerspace'>&#x23;HackerSpace</h1>
-                    <h1 className='greetings'>Welcome to Hackathon <span className='span1'>2</span><span className='span2'>0</span><span className='span3'>2</span><span className='span4'>3</span>!</h1>
-                    <p className='home-text'>"Unlock your potential, solve challenges, and leave your mark at our Hackerthon event."</p>
+                    <h1 className='greetings'>Welcome to Hackathon <span className='span1'>2</span><span
+                        className='span2'>0</span><span className='span3'>2</span><span className='span4'>3</span>!</h1>
+                    <p className='home-text'>"Unlock your potential, solve challenges, and leave your mark at our
+                        Hackerthon event."</p>
                     <h3 className='college-name'>
                         <a href="/">
                             <span>
@@ -97,7 +99,7 @@ const Home = () => {
                     </h3>
                 </div>
             </div>
-        </div >
+        </div>
     );
 };
 

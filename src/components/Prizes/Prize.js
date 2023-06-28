@@ -39,7 +39,7 @@ const Prize = () => {
 
     return (
         <div>
-            <div className="dd_heading">
+            <div className="dd_heading" id="Prize">
                 <h3 className="heading-tag-line">Prizes</h3>
                 <hr className="heading-underline"/>
             </div>

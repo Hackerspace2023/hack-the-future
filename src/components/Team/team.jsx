@@ -1,8 +1,7 @@
-var NewComponent = React.createClass({
+var Team = React.createClass({
   render: function() {
     return (
       <div>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Techfest Our Team Section</title>
         {/* Font Awesome */}
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
@@ -247,3 +246,4 @@ var NewComponent = React.createClass({
     );
   }
 });
+export default Team;

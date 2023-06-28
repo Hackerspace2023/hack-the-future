@@ -37,7 +37,7 @@ const Gallery = () => {
     };
 
     return (
-        <div>
+        <div id="Gallery">
             <h1 className="heading-tag-line">Gallery</h1>
             <hr className="heading-underline"/>
             <div id="gallery" className="container-fluid">

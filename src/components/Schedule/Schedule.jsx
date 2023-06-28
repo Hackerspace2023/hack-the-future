@@ -5,7 +5,7 @@ import './Schedule.css'; // Import the CSS file for styling
 
 const Timeline = () => {
   return (
-    <div className="Schedule_main">
+    <div className="Schedule_main" id="Schedule">
       <h3 className="Schedule_head">Events Schedule</h3>
       <div className="Schedule_container">
         <ul>

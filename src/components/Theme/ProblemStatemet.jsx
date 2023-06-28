@@ -52,15 +52,13 @@ const Theme = () => {
     },
     ];
     return (
-        <div>
-            <div className="main">
+            <div className="main" id="Theme">
                 <h1>Theme and Problem Statement</h1>
                 <ThemeList items={Theme}/>
                 <div className="rulesButton">
                     <button className="btn card_btn rules_btn">Rules &amp; Regulation</button>
                 </div>
             </div>
-        </div>
     )
 };
 export default Theme;
