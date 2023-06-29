@@ -1,1 +1,173 @@
 
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+
+/* Additional styles (not specified in the HTML) */
+.code_body{
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.code_container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .page {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+  }
+  
+  .code_header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .code_heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+  img{
+    width: 130px;
+  }
+  
+  .code_section {
+    margin-bottom: 30px;
+  }
+  
+  .codesub_heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00005c;
+    margin-bottom: 10px;
+  }
+  
+  .code_description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #07131a;;
+  }
+  
+  ul {
+    margin-bottom: 10px;
+    padding-left: 20px;
+  }
+  
+  li {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #07131a;
+  }
+  
+  .custom-section {
+    margin-bottom: 30px;
+  }
+  
+  .custom-section-heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00005c;
+    margin-bottom: 10px;
+  }
+  
+  .custom-section-description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #07131a;
+  }
+
+  /* for card and contact section  */
+
+  
+  .contact-section {
+    margin-bottom: 30px;
+  }
+
+
+  .contact-heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00005c;
+    margin-bottom: 20px;
+  } 
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  
+  .contact-info,
+  .contact-details {
+    margin-bottom: 20px;
+  }
+  
+
+  
+  .contact-description {
+    /* color: teal; */
+    margin: 24px;
+  }
+  
+  .contact-card-content {
+    padding: 24px;
+  }
+  
+  .contact-person {
+    color: blue;
+    /* color: #00005c; */
+  }
+  
+  .contact-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+
+
+
+  
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .contact-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  .contact-card {
+    padding: 24px;
+    background-color: #f9f9f9;
+    background: #ffda00;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    height: 20rem;
+  }
+
+    .email-card{
+        background: #fff;
+    }
+
+
+  .contact-description{
+    font-size: 18px;
+  }
+
+  .span_card{
+    font-size: 18px;
+  }
+  
+
