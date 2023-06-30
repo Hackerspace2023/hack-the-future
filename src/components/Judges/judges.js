@@ -1,6 +1,5 @@
 import React from "react";
 import ReactCardCarousel from "react-card-carousel";
-
 import "./judges.css"
 import Judge1 from "./assets/img1.jpg"
 import Judge2 from "./assets/img2.jpg"
