@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './home.css'; // Import the CSS file for styling
+import './home.css';
 
 const Home = () => {
     // const hackathonDate = new Date('2023-07-28');

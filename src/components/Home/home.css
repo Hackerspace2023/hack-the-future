@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 .home-container {
     display: flex;
@@ -12,7 +9,7 @@
     gap: 1rem;
     height: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../footer/assets/footer-bg.jpg) center no-repeat;
-    /* background: #000; */
+    /* background: #400280;*/
     background-size: cover;
     overflow: hidden;
     padding-top: 5%;

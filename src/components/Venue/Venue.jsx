@@ -1,6 +1,5 @@
 import React from 'react';
 import './Venue.css';
-
 const Venue = () => {
     return (
         <div className="venue-section" id="Venue">

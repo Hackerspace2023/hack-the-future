@@ -13,8 +13,9 @@
 	height: auto;
 	display: grid;
 	place-items: center;
-	background-color: rgb(245, 245, 245);
-	padding: 50px 0;
+	/*background-color: #1F0D3F;*/
+	background-color: black;
+	padding: 80px 0;
 }
 .Schedule_main .Schedule_head {
 	font-size: 29px;

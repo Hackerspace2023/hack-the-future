@@ -29,6 +29,10 @@ const Sponser = () => {
         id: 'sp12', sponserWebsite: '#', sponserImage: 'Images/hogwarts-logo-png-transparent.png'
     },]
     return (<div className='slider'>
+        <div className="about-head-section">
+            <h1 className="heading-tag-line">Sponsers</h1>
+            <hr className="heading-underline"/>
+        </div>
         <SponserList items={sponserData}/>
     </div>)
 };

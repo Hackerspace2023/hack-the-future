@@ -1,4 +1,7 @@
-.about-section {
+.about-section{
+    padding-top: 3rem;
+}
+.about-subsection {
     position: relative;
     display: flex;
     align-items: center;
@@ -22,9 +25,9 @@
 }
 
 .about-heading {
+    color: #EFA506;
     font-size: 50px;
     margin-bottom: 10px;
-    color: #fff;
 }
 
 
@@ -66,7 +69,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .about-section {
+    .about-subsection {
         flex-direction: column;
     }
 
@@ -99,7 +102,7 @@
 }
 
 @media (max-width: 480px) {
-    .about-section {
+    .about-subsection {
         flex-direction: column;
     }
 
@@ -132,7 +135,7 @@
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-    .about-section {
+    .about-subsection {
         flex-direction: column;
     }
 
