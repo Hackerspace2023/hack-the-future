@@ -13,6 +13,7 @@ h1{
     -webkit-column-gap:20px;
     -moz-column-gap:20px;
     column-gap:20px;
+    padding-bottom: 4rem;
   }
   @media (max-width:1200px){
     #gallery{
