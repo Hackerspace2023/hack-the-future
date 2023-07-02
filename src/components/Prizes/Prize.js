@@ -4,22 +4,6 @@ import "./Prize.css"
 const Prize = () => {
     const cardData = [
         {
-            heading: 'Snow View',
-            content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-        },
-        {
-            heading: 'Photoshoot mood',
-            content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-        },
-        {
-            heading: '3D View',
-            content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-        },
-        {
-            heading: 'Explore The Canvas',
-            content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-        },
-        {
             heading: 'Welcome To C++',
             content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
         },
@@ -31,15 +15,11 @@ const Prize = () => {
             heading: 'Hello World',
             content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
         },
-        {
-            heading: 'Error Fix',
-            content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-        },
     ];
 
     return (
-        <div>
-            <div className="dd_heading" id="Prize">
+        <div id="Prize">
+            <div className="dd_heading" >
                 <h3 className="heading-tag-line">Prizes</h3>
                 <hr className="heading-underline"/>
             </div>
