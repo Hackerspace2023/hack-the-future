@@ -9,34 +9,9 @@ const footer = () => {
             <div className="contentContainer">
                 <div className="logoContent">
                     <a href="/">
-                        <img src={Logo} alt="HackerSpace"/>
+                        <img src={Logo} alt="HackerSpace" />
                     </a>
-                    <div className="socialContent">
-                        <div className="contentText">
-                            <h3 className="footerTitle">Social Connection</h3>
-                            <p className="text">
-                                You should connect social area for Any update
-                            </p>
-                            <ul className="socialLogo">
-                                <li>
-                                    <a href="/">
-                                        <i className="fa-brands fa-facebook-f"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/">
-                                        <i className="fa-brands fa-linkedin-in"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/">
-                                        <i className="fa-brands fa-instagram"></i>
-                                    </a>
-                                </li>
 
-                            </ul>
-                        </div>
-                    </div>
                 </div>
                 <div className="venueContent">
                     <h3 className="footerTitle">Venue Location </h3>
@@ -44,17 +19,44 @@ const footer = () => {
                         28-30 July, 2023
                     </h4>
                     <address className='address'>
-                        Meghanad Saha Institute Of Technology, Kolkata <br/>
+                        Meghanad Saha Institute Of Technology, Kolkata <br />
                         West Bengal, India
                     </address>
                     <div className="location">
                         <a href="https://maps.app.goo.gl/KF6F1czsG1gGNumL9"
-                           rel='noreferrer'
-                           target="_blank"
+                            rel='noreferrer'
+                            target="_blank"
                         >
                             <i className="fa-solid fa-location-dot"></i>
                             <h4>View Map Location</h4>
                         </a>
+                    </div>
+
+                </div>
+                <div className="socialContent">
+                    <div className="contentText">
+                        <h3 className="footerTitle">Social Connection</h3>
+                        <p className="text">
+                            You should connect social area for Any update
+                        </p>
+                        <ul className="socialLogo">
+                            <li>
+                                <a href="/">
+                                    <i className="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <i className="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <i className="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+
+                        </ul>
                     </div>
                 </div>
                 {/*<div className="mapContent">*/}
