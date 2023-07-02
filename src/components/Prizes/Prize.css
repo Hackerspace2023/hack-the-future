@@ -7,6 +7,9 @@
     --font-serif: "Cardo", serif;
 }
 
+#Prize{
+    padding-bottom: 4rem;
+}
 .dd_heading {
     text-align: center;
     font-family: roboto thin;
@@ -16,7 +19,7 @@
 .page-content {
     display: grid;
     grid-gap: 1rem;
-    padding-top: 4rem;
+    padding-top: 2rem;
     max-width: 1024px;
     margin: 0 auto;
     font-family: var(--font-sans);
@@ -30,7 +33,7 @@
 
 @media (min-width: 800px) {
     .page-content {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
@@ -54,7 +57,7 @@
 
 @media (min-width: 600px) {
     .d_card {
-        height: 350px;
+        height: 450px;
     }
 }
 
