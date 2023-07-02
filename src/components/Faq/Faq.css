@@ -13,6 +13,8 @@
   border-radius: 10px;
   filter: drop-shadow(0 0 10px
           rgba(0, 0, 0, 0.5));
+          
+padding-bottom: 4rem;
 }
 .Faq__main {
 	width: 100%;
