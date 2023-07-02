@@ -5,14 +5,15 @@
 
 .container {
     max-width: 1200px;
-    width: 90%;
-    margin: auto;
+    width: 100%;
+    /* margin: auto; */
+    margin-left: 29px;
 }
 
 .navbar {
     position: fixed;
     width: 100%;
-    background: #554bb9f2;
+    background: #544bb9;
     color: #fff;
     opacity: 0.85;
     z-index: 100;
@@ -23,10 +24,12 @@
     justify-content: space-between;
     height: 64px;
     align-items: center;
+    gap: 2rem;
 }
 
 .menu-items {
     /* order: 1; */
+    width: 600px;
     display: flex;
     padding: 0 !important;
 }
@@ -47,7 +50,10 @@
 .menu-items li {
     list-style: none;
     margin-left: 1.5rem;
+    margin-right: 1rem;
     font-size: 1.3rem;
+    position: relative;
+
 }
 
 .navbar a {
@@ -109,7 +115,7 @@
         height: 4px;
         width: 100%;
         border-radius: 10px;
-        background: #333;
+        background: #ffae00;
     }
 
     .navbar-container .hamburger-lines .line1 {
@@ -123,21 +129,21 @@
 
     .navbar-container .hamburger-lines .line3 {
         transform-origin: 0% 100%;
-        transition: transform 0.3s ease-in-out;
+        transition: transform 0.3s ease-in;
     }
 
     .navbar .menu-items {
         padding-top: 100px;
-        background: #554bb9f2;
+        background: #212529;
         height: 30vh;
-        max-width: 300px;
+        width: 300px;
         transform: translate(-150%);
         display: flex;
         flex-direction: column;
         margin-left: -40px;
         padding-left: 40px;
         padding-right: 40px;
-        transition: transform 0.5s ease-in-out;
+        transition: transform 1s ease-in;
         box-shadow: 5px 0px 10px 0px #000;
         overflow: scroll;
     }
@@ -182,11 +188,30 @@
     }
 
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
     .navbar .menu-items {
-        height: 62vh;
+        width: 100%;
+        height: 80vh;
+        transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
+        margin-left: 0;
+        overflow: hidden;
+        margin-top: 60px !important;
+        padding-top: 30px !important;
+        border-radius: 10px;
+        border-bottom-right-radius: 200px;
+    }
+
+    .navbar .menu-items li {
+        text-align: center;
+        /* width: 90vw; */
+    }
+
+    .navbar .menu-items li a {
+        font-size: 23px;
     }
 }
+
 @media (max-width: 767px) {
     .navbar {
         opacity: 0.95;
@@ -233,7 +258,7 @@
         height: 4px;
         width: 100%;
         border-radius: 10px;
-        background: #f904ab;
+        background: #ffae00;
     }
 
     .navbar-container .hamburger-lines .line1 {
@@ -252,14 +277,14 @@
 
     .navbar .menu-items {
         padding-top: 100px;
-        background: #554bb9f2;
+        background: #212529;
         height: 62vh;
         overflow: hidden;
-        max-width: 300px;
+        /* max-width: 300px; */
         transform: translate(-150%);
         display: flex;
         flex-direction: column;
-        margin-left: -40px;
+        margin-left: -200px;
         padding-left: 40px;
         padding-right: 40px;
         transition: transform 0.5s ease-in-out;
@@ -267,10 +292,30 @@
         overflow: scroll;
     }
 
+    .navbar .menu-items {
+        width: 100%;
+        height: 80vh;
+        transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
+        margin-left: 0;
+        overflow: hidden;
+        margin-top: 60px !important;
+        padding-top: 30px !important;
+        border-radius: 10px;
+        border-bottom-right-radius: 200px;
+        margin-left: -29px;
+
+    }
+
     .navbar .menu-items li {
         margin-bottom: 1.8rem;
         font-size: 1.1rem;
-        font-weight: 500;
+        font-weight: 300;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .navbar .menu-items li a {
+        font-size: 23px;
     }
 
     .logo {
@@ -313,6 +358,7 @@
         display: none;
     }
 }
+
 /* *Onscroll background blued and shadow appear* */
 .navbar {
     position: fixed;
@@ -326,7 +372,66 @@
 }
 
 .navbar.scrolled {
-    backdrop-filter:  blur(4px) saturate(150%);
+    backdrop-filter: blur(4px) saturate(150%);
     box-shadow: 0px 5px 10px 0px #000;
 
+}
+
+.nav-container {
+    cursor: pointer;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 30px;
+    height: 20px;
+}
+
+.bars {
+    width: 30px;
+    height: 4px;
+    background: #000;
+}
+
+.bars::before,
+.bars::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    background: #000;
+}
+
+.bars::before {
+    margin-top: 9px;
+}
+
+.bars::after {
+    margin-top: 18px;
+}
+
+.borderXwidth a:before,
+.borderXwidth a:after {
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    content: '';
+    background: #FFF;
+    transition: all 0.3s;
+}
+
+.borderXwidth a:before {
+    left: 0px;
+    top: 0px;
+}
+
+.borderXwidth a:after {
+    right: 0px;
+    bottom: 0px;
+}
+
+.borderXwidth a:hover:before,
+.borderXwidth a:hover:after {
+    opacity: 1;
+    width: 100%;
 }
