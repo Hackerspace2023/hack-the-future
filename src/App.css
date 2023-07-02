@@ -5,6 +5,7 @@ body {
     padding: 0;
     scroll-behavior: smooth;
     background: #060404;
+    overflow-x: hidden;
 }
 
 .heading-underline {
