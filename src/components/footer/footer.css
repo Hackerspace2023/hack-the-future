@@ -33,7 +33,6 @@
 
 .logoContent img {
     width: 250px;
-    height: 50%;
     position: relative;
 }
 
@@ -98,7 +97,7 @@
     display: inline;
     color: #fff;
     font-weight: 400;
-    transition: 1s;
+    transition: 0.3s;
     font-size: 1rem;
 }
 
@@ -142,7 +141,7 @@
     text-decoration: none;
     line-height: 3rem;
     padding-right: 10px;
-    transition: 1s;
+    transition: 0.3s;
 }
 
 .socialLogo li:hover {
@@ -181,7 +180,6 @@
     line-height: 45px;
     font-weight: 600;
     position: relative;
-    top: -4px;
 }
 
 .copyContainer {
