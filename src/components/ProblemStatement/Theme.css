@@ -5,6 +5,8 @@
     align-items: center;
     flex-wrap: wrap;
     max-width: 1000px;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
 }
 
 .heading {
