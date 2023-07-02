@@ -1,11 +1,13 @@
 .venue-section {
-    margin: 10px;
-    padding: 3rem;
+    /* margin: 10px; */
+    /* padding: 3rem; */
+    padding-bottom: 4rem;
 }
 
 .venue-subsection {
     position: relative;
     display: flex;
+    flex-direction: column;
     align-items: center;
     height: 100%;
     padding-left: 2rem;
@@ -16,7 +18,10 @@
 .venue-subheading-left {
     flex: 1;
     color: #fff;
+    padding-top: 2rem;
+    text-align: center;
 }
+
 .venue-location a{
     display: flex;
     font-size: 20px;
@@ -32,10 +37,11 @@ color: #fff;
 .venue-subheading-right {
     flex: 0.5;
     padding-left: 20px;
+    padding-top: 2rem;
 }
 
 .venue-subheading-right iframe {
-    width: 550px;
+        width: 97vw;
     height: 350px;
     border: 0;
     border-radius: 10px;
@@ -69,4 +75,8 @@ color: #fff;
     .venue-subsection{
         flex-direction: column;
     }
+}
+.venue-location{
+    display: flex;
+    justify-content: center;
 }
