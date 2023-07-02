@@ -29,7 +29,7 @@ const Navbar = () => {
                 <div className="navbar-container container">
                     <input type="checkbox" name="" id="" />
                     <div className="logo">
-                        <img src={LeftLogo} alt="" className="img"/>
+                        <img src={LeftLogo} alt="" className="img" />
                     </div>
                     <div className="hamburger-lines">
                         <span className="line line1"></span>
@@ -37,15 +37,15 @@ const Navbar = () => {
                         <span className="line line3"></span>
                     </div>
                     <ul className="menu-items">
-                        <li><a href="#Home">Home</a></li>
-                        <li><a href="#About">About</a></li>
-                        <li><a href="#Theme">Theme</a></li>
-                        <li><a href="#Venue">Venue</a></li>
-                        <li><a href="#Schedule">Schedule</a></li>
-                        <li><a href="#Prize">Prizes</a></li>
-                        <li><a href="#Judges">Judges</a></li>
-                        <li><a href="#Gallery">Gallery</a></li>
-                        <li><a href="#Footer">Contact</a></li>
+                        <li className='borderXwidth'><a href="#Home">Home</a></li>
+                        <li className='borderXwidth'><a href="#About">About</a></li>
+                        <li className='borderXwidth'><a href="#Theme">Theme</a></li>
+                        <li className='borderXwidth'><a href="#Venue">Venue</a></li>
+                        <li className='borderXwidth'><a href="#Schedule">Schedule</a></li>
+                        <li className='borderXwidth'><a href="#Prize">Prizes</a></li>
+                        <li className='borderXwidth'><a href="#Judges">Judges</a></li>
+                        <li className='borderXwidth'><a href="#Gallery">Gallery</a></li>
+                        <li className='borderXwidth'><a href="#Footer">Contact</a></li>
                     </ul>
 
                     {/* <div className="rightLogo">
