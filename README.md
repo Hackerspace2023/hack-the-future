@@ -1,70 +1,130 @@
-# Getting Started with Create React App
+<div align="center">
+  
+<img src="https://avatars.githubusercontent.com/u/133033329?s=48&v=4"></img>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# HackerSpace
 
-## Available Scripts
 
-In the project directory, you can run:
+<img src="https://github.com/Hackerspace2023/HackerSpace/blob/main/public/hackerspace.jpg" width=250 height=250>
+  
+<br>
+Coding Community Website
+<br>
+Welcome to the Hackerspace Community Open Source Project!
+<br>
 
-### `npm start`
+👋 Hey there, tech enthusiasts!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🚀 Welcome to our Community Hackathon! Join us in this exciting coding adventure where developers from all backgrounds collaborate to create innovative solutions. This open-source project, hosted on GitHub, offers a platform for skill-sharing, creativity, and learning. Together, we'll tackle real-world challenges, build meaningful applications, and foster a thriving developer community. Contribute, learn, and make an impact with us during this Hackathon season. Your ideas and code can help shape the future. Let's code for change, inspire innovation, and celebrate the spirit of collaboration. Join us now and be a part of something extraordinary! 🌟
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+# Table of Contents
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+</div>
 
-### `npm run build`
+1. [Contributing](#contributing)
+2. [Connect](#connect)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<div align="center">
+  
+# Contributing
+  
+</div>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Head our to [CONTRIBUTING.md](https://github.com/Hackerspace2023/HackerSpace/blob/main/CONTRIBUTING.md) file for more details regarding contributions.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<div align="center">
+  
+# Connect
+  
+</div>
 
-### `npm run eject`
+<h3>Join official <a href="https://discord.gg/6mGFdkWxux">Discord Channel</a> for discussion</h3>
+<br>
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<div align="center">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Associated with
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Hacktoberfest23](https://github.com/Hackerspace2023/HackerSpace/blob/main/public/hacktoberfest_logo.png)
 
-## Learn More
+# About Us
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<a href="https://github.com/Hackerspace2023/HackerSpace/issues"><img src="https://img.shields.io/github/issues/Hackerspace2023/HackerSpace"></a>
+<a href="https://github.com/Hackerspace2023/HackerSpace/pulls"><img src="https://img.shields.io/github/issues-pr/Hackerspace2023/HackerSpace"></a>
+<a href="https://github.com/Hackerspace2023/HackerSpace/network/members"><img src="https://img.shields.io/github/forks/Hackerspace2023/HackerSpace"></a>
+<a href="https://github.com/Hackerspace2023/HackerSpace/stargazers"><img src="https://img.shields.io/github/stars/Hackerspace2023/HackerSpace"></a>
+<a href="https://github.com/Hackerspace2023/HackerSpace/blob/master/LICENSE"><img src="https://img.shields.io/github/license/Hackerspace2023/HackerSpace"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+</div>
 
-### Code Splitting
+### Built With
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* [React.js](https://reactjs.org/)
+* [React Router](https://reactrouter.com/)
+* [Styled Components](https://styled-components.com/)
 
-### Analyzing the Bundle Size
+<!-- GETTING STARTED -->
+## Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To get a local copy up and running, follow these simple example steps.
 
-### Making a Progressive Web App
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Make sure you have Node.js and npm installed on your system.
 
-### Advanced Configuration
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Installation
 
-### Deployment
+1. Clone the repo
+   ```sh
+   git clone https://github.com/Hackerspace2023/hack-the-future.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+3. Start the development server
+   ```sh
+   npm start
+   ```
 
-### `npm run build` fails to minify
+<!-- CONTRIBUTING -->
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+# Contributors
+![Contributors](https://contrib.rocks/image?repo=Hackerspace2023/hack-the-future&lastUpdate=1696542248)
+  
+
+<h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" alt="High Voltage" width="40" height="40" /><font size="6">Tech Stack</font></h2>
+
+<br>
+
+<center>
+<p>
+<div align="center">
+<a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"><img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white"></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black"></a>
+<a href="https://getbootstrap.com/"><img src="https://img.shields.io/badge/Bootstrap-7952B3.svg?style=for-the-badge&logo=Bootstrap&logoColor=black"></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=black"></a>
+<a href="https://v2.tailwindcss.com/docs"><img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4.svg?style=for-the-badge&logo=Tailwind-CSS&logoColor=black"></a>
+<div>
+</p>
+</center>
+
