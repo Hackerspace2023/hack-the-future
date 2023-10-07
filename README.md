@@ -128,3 +128,26 @@ Contributions are what make the open-source community such an amazing place to l
 </p>
 </center>
 
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+
+* [Font Awesome](https://fontawesome.com/)
+* [Unsplash](https://unsplash.com/)
+* [react-icons](https://react-icons.github.io/react-icons/)
+* [Axios](https://github.com/axios/axios)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[product-screenshot]: images/screenshot.png
+```
+
+In this template:
+
+- Replace the placeholders with your actual project information, such as project name, description, logo, and website link.
+- Add your project dependencies and technologies to the "Built With" section.
+- Provide clear instructions for setting up and running the project in the "Getting Started" section.
+- Encourage contributions and provide guidelines in the "Contributing" section.
+- Specify the project's license.
+- Acknowledge any third-party tools, libraries, or resources used in your project in the "Acknowledgements" section.
+- Include screenshots or images that showcase your project.
+
+Remember to replace the placeholders with your actual project information and customize the README to fit your project's style and requirements.
