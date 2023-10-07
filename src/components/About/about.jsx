@@ -28,7 +28,7 @@ const AboutSection = () => {
                     </p>
                 </div>
                 <div className="about-right-section">
-                    <img src={aboutImg} alt="Hackathon-Image" className="hackathon-image"/>
+                    <img src={aboutImg} alt="=Img" className="hackathon-image"/>
                 </div>
             </div>
         </div>

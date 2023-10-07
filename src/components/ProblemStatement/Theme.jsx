@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import "./Theme.css"
 
 const Theme = () => {
-    const [cards, setCards] = useState([
+    const [cards] = useState([
 
         {
             frontImage: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-2ebb2b6f93add843.png',

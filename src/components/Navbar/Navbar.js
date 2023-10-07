@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 
 import "./Navbar.css"
 import LeftLogo from "../footer/assets/2-removebg-preview.png"
-import footer from "../footer/footer";
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
 

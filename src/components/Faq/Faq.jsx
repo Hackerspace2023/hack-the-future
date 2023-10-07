@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import "./Faq.css";
-import logo from './FAQs.svg'
 
 const dataCollection = [
     {

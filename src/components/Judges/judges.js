@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import '../Home/home.css'; // Import the CSS file for styling
 import ReactCardCarousel from "react-card-carousel";
 
@@ -122,7 +122,7 @@ const Judges = () => {
                                 <div className="contacts">
                                     {/* Render social icons */}
                                     {card.social.map((social, index) => (
-                                        <a key={index} href="">
+                                        <a key={index} href={social.url} target="_blank" rel="noopener noreferrer">
                                             <i className={social.icon}></i>
                                         </a>
                                     ))}

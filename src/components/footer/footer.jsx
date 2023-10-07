@@ -24,7 +24,7 @@ const footer = () => {
                     </address>
                     <div className="location">
                         <a href="https://maps.app.goo.gl/KF6F1czsG1gGNumL9"
-                            rel='noreferrer'
+                            rel='noopener noreferrer'
                             target="_blank"
                         >
                             <i className="fa-solid fa-location-dot"></i>
