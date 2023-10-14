@@ -1,10 +1,10 @@
-import React from 'react';
-import './code.css';
-import Cimage from './download.png';
+import React from "react";
+import "./code.css";
+import Cimage from "./download.png";
 
 const CodeOfConduct = () => {
   return (
-    <div className='code_body'>
+    <div className="code_body">
       <div className="code_container">
         <div className="page article-page">
           {/* Header section */}
@@ -37,7 +37,9 @@ const CodeOfConduct = () => {
 
           {/* No plagiarism or re-using of past work section */}
           <section className="code_section">
-            <h2 className="sub-heading">No plagiarism or re-using of past work</h2>
+            <h2 className="sub-heading">
+              No plagiarism or re-using of past work
+            </h2>
             <p className="code_description">
               We encourage you to submit projects only prepared in the duration
               of the hackathon. <br />
@@ -100,34 +102,38 @@ const CodeOfConduct = () => {
           <section className="custom-section">
             <h2 className="custom-section-heading">No harassment</h2>
             <p className="custom-section-description">
-              We do not tolerate harassment of hackathon participants in any form,
-              including offensive discriminatory verbal comments, public display of sexual
-              material, in public spaces, deliberate intimidation, stalking, wilful
-              disruption, inappropriate physical contact, unwelcome sexual advances, and
-              the taking of photographs and audio/video recordings without the subject's
-              consent.
+              We do not tolerate harassment of hackathon participants in any
+              form, including offensive discriminatory verbal comments, public
+              display of sexual material, in public spaces, deliberate
+              intimidation, stalking, wilful disruption, inappropriate physical
+              contact, unwelcome sexual advances, and the taking of photographs
+              and audio/video recordings without the subject's consent.
             </p>
           </section>
 
           {/* No recording without consent section */}
           <section className="custom-section">
-            <h2 className="custom-section-heading">No recording without consent</h2>
+            <h2 className="custom-section-heading">
+              No recording without consent
+            </h2>
             <p className="custom-section-description">
-              While photography and videography is encouraged, other participants must be
-              given a reasonable chance to opt out from being photographed. If they object
-              to the taking of their photograph, comply with their request.
+              While photography and videography is encouraged, other
+              participants must be given a reasonable chance to opt out from
+              being photographed. If they object to the taking of their
+              photograph, comply with their request.
             </p>
             <br />
             <p className="custom-section-description">
-              If they express their disapproval after the photo or video has been captured,
-              please delete it from your records, and in case it has been shared online,
-              take reasonable steps to retract it from social media as well.
+              If they express their disapproval after the photo or video has
+              been captured, please delete it from your records, and in case it
+              has been shared online, take reasonable steps to retract it from
+              social media as well.
             </p>
             <br />
             <p className="custom-section-description">
-              It is inappropriate to take photographs in contexts where people have a
-              reasonable expectation of privacy (in bathrooms or where participants are
-              sleeping).
+              It is inappropriate to take photographs in contexts where people
+              have a reasonable expectation of privacy (in bathrooms or where
+              participants are sleeping).
             </p>
           </section>
 
@@ -135,10 +141,11 @@ const CodeOfConduct = () => {
           <section className="custom-section">
             <h2 className="custom-section-heading">Creation of a safe space</h2>
             <p className="custom-section-description">
-              No sponsors, partners, or participants shall use sexualised images,
-              activities, or other material at the hackathons for any non-permitted
-              purpose. The use of sexualised clothing/uniforms/costumes, and anything that
-              creates a sexualised environment is prohibited.
+              No sponsors, partners, or participants shall use sexualised
+              images, activities, or other material at the hackathons for any
+              non-permitted purpose. The use of sexualised
+              clothing/uniforms/costumes, and anything that creates a sexualised
+              environment is prohibited.
             </p>
           </section>
 
@@ -146,13 +153,14 @@ const CodeOfConduct = () => {
           <section className="custom-section">
             <h2 className="custom-section-heading">Intellectual Property</h2>
             <p className="custom-section-description">
-              You will own any developments made by you, and all rights, titles and
-              interests in those developments, including the intellectual property rights
-              therein, shall belong to you. By posting your submission on Devfolio, you are
-              granting Devfolio a non-exclusive, worldwide, royalty-free license to use,
-              distribute, display and reproduce your submission only to the extent required
-              by us to provide services on the Devfolio platform. We will never try to steal
-              your creations or use them exploitatively.
+              You will own any developments made by you, and all rights, titles
+              and interests in those developments, including the intellectual
+              property rights therein, shall belong to you. By posting your
+              submission on Devfolio, you are granting Devfolio a non-exclusive,
+              worldwide, royalty-free license to use, distribute, display and
+              reproduce your submission only to the extent required by us to
+              provide services on the Devfolio platform. We will never try to
+              steal your creations or use them exploitatively.
             </p>
           </section>
 
@@ -160,28 +168,35 @@ const CodeOfConduct = () => {
           <section className="custom-section">
             <h2 className="custom-section-heading">Always report</h2>
             <p className="custom-section-description">
-              If you notice any violation of this Code of Conduct or find otherwise suspicious
-              behavior or have any concerns, please contact a member of the hackathon organizing
-              committee immediately.
+              If you notice any violation of this Code of Conduct or find
+              otherwise suspicious behavior or have any concerns, please contact
+              a member of the hackathon organizing committee immediately.
             </p>
             <br />
             <p className="custom-section-description">
-              We will be happy to help participants contact local security or local law enforcement,
-              or otherwise assist those experiencing harassment to feel safe for the duration of the
-              hackathon. We value your attendance.
+              We will be happy to help participants contact local security or
+              local law enforcement, or otherwise assist those experiencing
+              harassment to feel safe for the duration of the hackathon. We
+              value your attendance.
             </p>
           </section>
 
           {/* Consequences of violations section */}
           <section className="custom-section">
-            <h2 className="custom-section-heading">Consequences of violations</h2>
+            <h2 className="custom-section-heading">
+              Consequences of violations
+            </h2>
             <p className="custom-section-description">
-              In case any participant violates this Code of Conduct, the organizer may, at their
-              own discretion:
+              In case any participant violates this Code of Conduct, the
+              organizer may, at their own discretion:
             </p>
             <ul className="custom-section-list">
-              <li>expel them from the hackathon with no refund (if applicable),</li>
-              <li>block their access to Devfolio resources including the website,</li>
+              <li>
+                expel them from the hackathon with no refund (if applicable),
+              </li>
+              <li>
+                block their access to Devfolio resources including the website,
+              </li>
               <li>report their behavior to local law enforcement.</li>
             </ul>
           </section>
@@ -192,7 +207,12 @@ const CodeOfConduct = () => {
             <div className="contact-grid">
               <div className="contact-info">
                 <div className="contact-card">
-                  <p className="contact-description">If you have witnessed or experienced any transgressions of this Code of Conduct at a hackathon hosted on Devfolio, please report it to your hackathon organizer, or get in touch with Devfolio.</p>
+                  <p className="contact-description">
+                    If you have witnessed or experienced any transgressions of
+                    this Code of Conduct at a hackathon hosted on Devfolio,
+                    please report it to your hackathon organizer, or get in
+                    touch with Devfolio.
+                  </p>
                 </div>
               </div>
               <div className="contact-details">
@@ -201,13 +221,21 @@ const CodeOfConduct = () => {
                     <h2 className="contact-person">Denver Dsouza</h2>
                     <div className="contact-row">
                       <div className="contact-icon" name="mail"></div>
-                      <span  className='span_card'>
-                        <a aria-label="Copy email address" href="mailto:denver@devfolio.co">denver@devfolio.co</a>
+                      <span className="span_card">
+                        <a
+                          aria-label="Copy email address"
+                          href="mailto:denver@devfolio.co"
+                        >
+                          denver@devfolio.co
+                        </a>
                         <span className="copy-email">Copy email address</span>
                       </span>
                     </div>
                     <div className="contact-row">
-                      <span className='span_card'>No. 97, 4th main, 1st cross, New Thippasandra, Bengaluru - 560075</span>
+                      <span className="span_card">
+                        No. 97, 4th main, 1st cross, New Thippasandra, Bengaluru
+                        - 560075
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -216,8 +244,8 @@ const CodeOfConduct = () => {
           </section>
         </div>
       </div>
-</div>
+    </div>
   );
-}
+};
 
 export default CodeOfConduct;

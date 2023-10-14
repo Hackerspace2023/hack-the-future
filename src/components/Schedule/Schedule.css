@@ -1,201 +1,210 @@
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-family: Poppins;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
 }
+
 /* @font-face {
 	font-family: Poppins;
 	src: url(./fonts/Poppins-Medium.ttf);
 } */
+
 .Schedule_main {
-	width: 100%;
-	height: auto;
-	display: grid;
-	place-items: center;
-	/*background-color: #1F0D3F;*/
-	background-color: black;
-	padding: 80px 0;
+  width: 100%;
+  height: auto;
+  display: grid;
+  place-items: center;
+  /*background-color: #1F0D3F;*/
+  background-color: black;
+  padding: 80px 0;
 }
 .Schedule_main .Schedule_head {
-	font-size: 29px;
-	color: rgba(91, 14, 216, 0.767);
-	position: relative;
-	margin-bottom: 100px;
-	font-weight: 500;
+  font-size: 29px;
+  color: rgba(91, 14, 216, 0.767);
+  position: relative;
+  margin-bottom: 100px;
+  font-weight: 500;
 }
 .Schedule_main .Schedule_head::after {
-	content: " ";
-	position: absolute;
-	width: 50%;
-	height: 3px;
-	left: 50%;
-	bottom: -5px;
-	transform: translateX(-50%);
-	background-image: linear-gradient(to right, rgba(91, 14, 216, 0.767), rgba(238, 12, 200, 0.747));
+  content: " ";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  left: 50%;
+  bottom: -5px;
+  transform: translateX(-50%);
+  background-image: linear-gradient(
+    to right,
+    rgba(91, 14, 216, 0.767),
+    rgba(238, 12, 200, 0.747)
+  );
 }
 
 /* Container Css Start  */
 
 .Schedule_container {
-	width: 70%;
-	height: auto;
-	margin: auto 0;
-	position: relative;
+  width: 70%;
+  height: auto;
+  margin: auto 0;
+  position: relative;
 }
 .Schedule_container ul {
-	list-style: none;
+  list-style: none;
 }
 .Schedule_container ul::after {
-	content: " ";
-	position: absolute;
-	width: 2px;
-	height: 65%;
-	left: 50%;
-	top: 0;
-	transform: translateX(-50%);
-	background-image: linear-gradient(to bottom, rgba(91, 14, 216, 0.767), rgba(238, 12, 200, 0.747));
-    animation: moveline 6s linear forwards;
+  content: " ";
+  position: absolute;
+  width: 2px;
+  height: 65%;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(91, 14, 216, 0.767),
+    rgba(238, 12, 200, 0.747)
+  );
+  animation: moveline 6s linear forwards;
 }
-@keyframes moveline{
-    0%{
-        height: 0%;
-    }
-    100%{
-        height: 65%;
-    }
+@keyframes moveline {
+  0% {
+    height: 0%;
+  }
+  100% {
+    height: 65%;
+  }
 }
 .Schedule_container ul li {
-	width: 50%;
-	height: auto;
-	padding: 15px 20px;
-	background-color: #fff;
-	border-radius: 8px;
-	box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.218);
-	position: relative;
-	margin-bottom: 30px;
-	z-index: 99;
+  width: 50%;
+  height: auto;
+  padding: 15px 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.218);
+  position: relative;
+  margin-bottom: 30px;
+  z-index: 99;
 }
 .Schedule_container ul li:nth-child(4) {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 .Schedule_container ul li .circle {
-	position: absolute;
-	width: 20px;
-	height: 20px;
-	border-radius: 50%;
-	background-color: #e100ff7a;
-	top: 0;
-	display: grid;
-	place-items: center;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #e100ff7a;
+  top: 0;
+  display: grid;
+  place-items: center;
 }
-.circle::after{
-	content: ' ';
-	width: 12px;
-	height: 12px;
-	background-color: #7f00ff;
-	border-radius: 50%;
+.circle::after {
+  content: " ";
+  width: 12px;
+  height: 12px;
+  background-color: #7f00ff;
+  border-radius: 50%;
 }
 ul li:nth-child(odd) .circle {
-	transform: translate(50%, -50%);
-	right: -15px;
+  transform: translate(50%, -50%);
+  right: -15px;
 }
 ul li:nth-child(even) .circle {
-	transform: translate(-50%, -50%);
-	left: -45px;
+  transform: translate(-50%, -50%);
+  left: -45px;
 }
 ul li .Schedule_date {
-	position: absolute;
-	width: 130px;
-	height: 33px;
-	background-image: linear-gradient(to right,#7f00ff,#e100ff);
-	border-radius: 15px;
-	top: -45px;
-	display: grid;
-	place-items: center;
-	color: #fff;
-	font-size: 13px;
-	box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.318);
+  position: absolute;
+  width: 130px;
+  height: 33px;
+  background-image: linear-gradient(to right, #7f00ff, #e100ff);
+  border-radius: 15px;
+  top: -45px;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  font-size: 13px;
+  box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.318);
 }
 .Schedule_container ul li:nth-child(odd) {
-	float: left;
-	clear: right;
-	text-align: right;
-	transform: translateX(-30px);
+  float: left;
+  clear: right;
+  text-align: right;
+  transform: translateX(-30px);
 }
 ul li:nth-child(odd) .Schedule_date {
-	right: 20px;
+  right: 20px;
 }
 .Schedule_container ul li:nth-child(even) {
-	float: right;
-	clear: left;
-	transform: translateX(30px);
+  float: right;
+  clear: left;
+  transform: translateX(30px);
 }
 ul li .Schedule_heading {
-	font-size: 17px;
-	color: rgb(91, 14, 216);
+  font-size: 17px;
+  color: rgb(91, 14, 216);
 }
 ul li p {
-	font-size: 13px;
-	color: #666;
-	line-height: 18px;
-	margin: 6px 0 4px 0;
+  font-size: 13px;
+  color: #666;
+  line-height: 18px;
+  margin: 6px 0 4px 0;
 }
 ul li a {
-	font-size: 13px;
-	text-decoration: none;
-	color: rgb(18, 54, 214);
-	transition: all 0.3s ease;
+  font-size: 13px;
+  text-decoration: none;
+  color: rgb(18, 54, 214);
+  transition: all 0.3s ease;
 }
 
-
-@media only screen and (min-width:798px) and (max-width: 1100px) {
-	.Schedule_container{
-		width: 80%;
-	}
+@media only screen and (min-width: 798px) and (max-width: 1100px) {
+  .Schedule_container {
+    width: 80%;
+  }
 }
 
 @media only screen and (max-width: 798px) {
-	.Schedule_container{
-		width: 70%;
-		transform: translateX(20px);
-	}
-	.Schedule_container ul::after{
-		left: -40px;
-	}
-	.Schedule_container ul li {
-		width: 100%;
-		float: none;
-		clear: none;
-		margin-bottom: 80px;
-	}
-	.Schedule_container ul li .circle{
-		left: -30px;
-		transform: translate(-50%, -50%);
-	}
-	.Schedule_container ul li .Schedule_date{
-		left: 20px;
-	}
-	.Schedule_container ul li:nth-child(odd) {
-		transform: translateX(0px);
-		/* text-align: left;
+  .Schedule_container {
+    width: 70%;
+    transform: translateX(20px);
+  }
+  .Schedule_container ul::after {
+    left: -40px;
+  }
+  .Schedule_container ul li {
+    width: 100%;
+    float: none;
+    clear: none;
+    margin-bottom: 80px;
+  }
+  .Schedule_container ul li .circle {
+    left: -30px;
+    transform: translate(-50%, -50%);
+  }
+  .Schedule_container ul li .Schedule_date {
+    left: 20px;
+  }
+  .Schedule_container ul li:nth-child(odd) {
+    transform: translateX(0px);
+    /* text-align: left;
          */
-         right: 42px;
-	}
-	.Schedule_container ul li:nth-child(even) {
-		transform: translateX(0px);
-        right: 42px;
-	}
+    right: 42px;
+  }
+  .Schedule_container ul li:nth-child(even) {
+    transform: translateX(0px);
+    right: 42px;
+  }
 }
 
 @media only screen and (max-width: 550px) {
-	.Schedule_container{
-		width: 80%;
-	}
-	.Schedule_container ul::after{
-		left: -20px;
-	}
-	.Schedule_container ul li .circle{
-		left: -10px;
-	}
+  .Schedule_container {
+    width: 80%;
+  }
+  .Schedule_container ul::after {
+    left: -20px;
+  }
+  .Schedule_container ul li .circle {
+    left: -10px;
+  }
 }

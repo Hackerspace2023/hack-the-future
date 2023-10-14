@@ -1,26 +1,26 @@
 .slide-image {
-    width: 200px;
-    height: 200px;
-    animation: scroll 30s alternate-reverse infinite;
+  width: 200px;
+  height: 200px;
+  animation: scroll 30s alternate-reverse infinite;
 }
 
 .slide-track {
-    width: 100%;
-    display: flex;
-    gap: 3em;
-    overflow: hidden;
+  width: 100%;
+  display: flex;
+  gap: 3em;
+  overflow: hidden;
 }
 
 .slider {
-    /*background-color: #1F0D3F;*/
-    padding: 4rem 1rem;
+  /*background-color: #1F0D3F;*/
+  padding: 4rem 1rem;
 }
 
 @keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translatex(-1000%);
-    }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translatex(-1000%);
+  }
 }
