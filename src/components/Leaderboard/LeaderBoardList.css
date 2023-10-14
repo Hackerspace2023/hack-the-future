@@ -1,8 +1,10 @@
-th, td {
-    text-align: center;
-    padding: 16px;
+th,
+td {
+  text-align: center;
+  padding: 16px;
 }
 
-th:first-child, td:first-child {
-    text-align: left;
+th:first-child,
+td:first-child {
+  text-align: left;
 }

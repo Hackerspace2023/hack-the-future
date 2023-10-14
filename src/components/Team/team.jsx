@@ -1,18 +1,29 @@
 var Team = React.createClass({
-  render: function() {
+  render: function () {
     return (
       <div>
         <title>Techfest Our Team Section</title>
         {/* Font Awesome */}
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        />
         {/* Google Font */}
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap"
+          rel="stylesheet"
+        />
         {/* Stylesheet */}
         <link rel="stylesheet" href="style.css" />
         {/* CARD1*/}
         <div className="row">
           <h1>Our Team</h1>
-          <p1 className="row">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, ratione voluptas pariatur quo corrupti reiciendis illo quibusdam nulla vero minima molestias consequatur aut. Architecto, maxime distinctio unde quibusdam doloremque sequi.</p1>
+          <p1 className="row">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore,
+            ratione voluptas pariatur quo corrupti reiciendis illo quibusdam
+            nulla vero minima molestias consequatur aut. Architecto, maxime
+            distinctio unde quibusdam doloremque sequi.
+          </p1>
         </div>
         <div className="row">
           {/* Column 1*/}
@@ -88,9 +99,7 @@ var Team = React.createClass({
             </div>
           </div>
         </div>
-        <div className="row">
-          {/* CARD2*/}
-        </div>
+        <div className="row">{/* CARD2*/}</div>
         <div className="row">
           {/* Column 1*/}
           <div className="column">
@@ -165,9 +174,7 @@ var Team = React.createClass({
             </div>
           </div>
         </div>
-        <div className="row">
-          {/* CARD3*/}
-        </div>
+        <div className="row">{/* CARD3*/}</div>
         <div className="row">
           {/* Column 1*/}
           <div className="column">
@@ -244,6 +251,6 @@ var Team = React.createClass({
         </div>
       </div>
     );
-  }
+  },
 });
 export default Team;

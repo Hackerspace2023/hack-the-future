@@ -1,82 +1,92 @@
 .venue-section {
-    /* margin: 10px; */
-    /* padding: 3rem; */
-    padding-bottom: 4rem;
+  /* margin: 10px; */
+  /* padding: 3rem; */
+  padding-bottom: 4rem;
+}
+
+.venue-container {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
 }
 
 .venue-subsection {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    font-size: 2rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 2rem;
 }
 
 .venue-subheading-left {
-    flex: 1;
-    color: #fff;
-    padding-top: 2rem;
-    text-align: center;
+  width: 100%;
+  color: #fff;
+  padding-top: 2rem;
+  text-align: center;
 }
 
-.venue-location a{
-    display: flex;
-    font-size: 20px;
-    text-decoration: none;
-    gap: 10px;
-    font-family: Poppins;
-color: #fff;
-    /* gap: 10px; */
+.venue-location a {
+  display: flex;
+  font-size: 20px;
+  text-decoration: none;
+  gap: 10px;
+  font-family: Poppins;
+  color: #fff;
+  /* gap: 10px; */
 }
-.venue-location a i{
-    color: #ffae00;
+.venue-location a i {
+  color: #ffae00;
 }
 .venue-subheading-right {
-    flex: 0.5;
-    padding-left: 20px;
-    padding-top: 2rem;
+  width: 100%;
 }
 
 .venue-subheading-right iframe {
-        width: 97vw;
-    height: 350px;
-    border: 0;
-    border-radius: 10px;
+  width: 100%;
+  height: 350px;
+  border: 0;
+  border-radius: 10px;
 }
-.venue-location a i{
-    font-size: 1.5rem;
+
+.venue-location {
+  display: flex;
+  justify-content: center;
+}
+
+.venue-location a i {
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 480px) {
-    .venue-subsection {
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        padding: 0 2rem;
-        text-align: center;
-        width: 100%;
-    }
+  .venue-container {
+    flex-direction: column;
+    justify-content: center;
+  }
 
-    .venue-subheading-right iframe {
-        margin: 20px;
-        width: 300px;
-        height: auto;
-    }
+  .venue-subsection {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2rem;
+    text-align: center;
+    width: 100%;
+  }
 
-    .venue-date {
-        font-size: 2rem;
-    }
+  .venue-subheading-right iframe {
+    margin: 20px;
+    width: 300px;
+    height: auto;
+  }
+
+  .venue-date {
+    font-size: 2rem;
+  }
 }
 @media (min-width: 481px) and (max-width: 767px) {
-
-    .venue-subsection{
-        flex-direction: column;
-    }
-}
-.venue-location{
-    display: flex;
-    justify-content: center;
+  .venue-subsection {
+    flex-direction: column;
+  }
 }
