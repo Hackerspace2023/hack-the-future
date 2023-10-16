@@ -6,11 +6,13 @@ const SponserItem = (props) => {
     <div className="slide">
       <img
         src={props.image}
-        alt={props.name}
+        alt={props.id}
         className="slide-image"
         loading="lazy"
+        title={props.id}
       />
     </div>
   );
 };
+
 export default SponserItem;

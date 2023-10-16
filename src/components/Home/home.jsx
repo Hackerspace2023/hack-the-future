@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./home.css";
+import { BsDiscord } from "react-icons/bs";
+import { FiArrowUpRight } from "react-icons/fi";
+import { IoLocationSharp } from "react-icons/io5";
 
 const Home = () => {
   // const hackathonDate = new Date('2023-07-28');
@@ -81,8 +84,7 @@ const Home = () => {
               className="btn btn-2 hover-slide-right register-btn"
             >
               <a href="https://hackthefuture.devfolio.co/" target="_blank">
-                Register Now{" "}
-                <i className="register fa-solid fa-arrow-right"></i>
+                Register Now <FiArrowUpRight />
               </a>
             </button>
             <button
@@ -90,7 +92,7 @@ const Home = () => {
               className="btn btn-2 hover-slide-right discord"
             >
               <a href="https://discord.gg/q9vHfn9M" target="_blank">
-                Join Here <i className="fa-brands fa-discord"></i>
+                Join Here <BsDiscord />
               </a>
             </button>
           </div>
@@ -113,7 +115,7 @@ const Home = () => {
           <h3 className="college-name">
             <a href="https://msit.edu.in/" target="_blank">
               <span>
-                <i className="fa-solid fa-location-dot"></i>
+                <IoLocationSharp />
               </span>
               Meghnad Saha Institute of Technology
             </a>

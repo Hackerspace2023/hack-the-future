@@ -1,5 +1,6 @@
 import React from "react";
 import "./Venue.css";
+import { FaStreetView } from "react-icons/fa6";
 
 const Venue = () => {
   return (
@@ -31,7 +32,7 @@ const Venue = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <i className="fa-sharp fa-solid fa-street-view"></i>
+                <FaStreetView />
                 <h4>See Venue in 360&deg;</h4>
               </a>
             </div>

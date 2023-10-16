@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
-import Logo from "../footer/assets/hackathon-logo.png";
+import hackathonLogo from "/images/hackathon-logo.png";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -27,7 +27,7 @@ const Navbar = () => {
       <div className="navbar-container container">
         <input type="checkbox" name="" id="" />
         <div className="logo">
-          <img src={Logo} alt="hack-the-future" className="img" />
+          <img src={hackathonLogo} alt="hack-the-future" className="img" />
         </div>
         <div className="hamburger-lines">
           <span className="line line1"></span>
