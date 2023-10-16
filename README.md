@@ -1,18 +1,20 @@
 # Hack The Future
 
-<center>
+<div align="center">
 
-<img src="./public/images/hackathon-logo.png" style="background-color: #0d1117; border-radius: 1rem" />
+<img src="./public/images/hackathon-logo-bg.png?raw=true" />
 
-</center>
+</div>
 
 🚀 Welcome to our Community Hackathon! Join us in this exciting coding adventure where developers from all backgrounds collaborate to create innovative solutions. This open-source project, hosted on GitHub, offers a platform for skill-sharing, creativity, and learning. Together, we'll tackle real-world challenges, build meaningful applications, and foster a thriving developer community. Contribute, learn, and make an impact with us during this Hackathon season. Your ideas and code can help shape the future. Let's code for change, inspire innovation, and celebrate the spirit of collaboration. Join us now and be a part of something extraordinary! 🌟
 
 ## Event Organisation
 
-<center>
-<img src="./public/images/hackerspace-logo.png?raw=true" width=200 height=200 style="background-color: white; border-radius: 100%;" />
-</center>
+<div align="center">
+
+<img src="./public/images/hackerspace-logo-bg.png?raw=true" width=200 height=200 />
+
+</div>
 
 The event is organised by [Hacker Space](https://github.com/HackerSpace2023), the official coding community of [Meghnad Saha Institute of Technology](https://msit.edu.in/).
 
