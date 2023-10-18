@@ -150,8 +150,12 @@
 }
 
 .socialLogo:hover > li:hover a {
-  background: #363636;
+  background: #0000ff;
 }
+.socialLogo:hover > .instalogo:hover a {
+  background-image: linear-gradient(#405de6,#833Ab4,#FD1D1d,#f77737,#fcaf45);
+}
+
 
 .socialLogo li a i {
   font-size: 24px;
