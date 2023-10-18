@@ -17,4 +17,5 @@ const SponserList = (props) => {
     </div>
   );
 };
+
 export default SponserList;

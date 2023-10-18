@@ -11,7 +11,7 @@
   justify-content: left;
   width: 100%;
   font-family: Oswald, sans-serif;
-  background: url(./assets/footer-bg.jpg) bottom center no-repeat;
+  background: url(/images/footer-bg.jpg) bottom center no-repeat;
   bottom: 0;
 }
 
@@ -75,27 +75,29 @@
 }
 
 .location {
-  display: flex;
+  /* display: flex; */
+  font-size: 1.5rem;
+  /* align-items: center; */
 }
 
 .location a {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
   text-decoration: none;
-}
-
-.location a i {
-  padding-right: 10px;
   color: #ffae00;
 }
 
 .location a h4 {
   display: inline;
-  color: #fff;
   font-weight: 400;
   transition: 0.3s;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0;
 }
 
-.location a h4:hover {
+.location:hover a h4 {
   color: #ffae00;
 }
 
@@ -115,7 +117,7 @@
 }
 
 .socialLogo li {
-  color: #999;
+  color: #363636;
   text-decoration: none;
   line-height: 3rem;
   padding-right: 10px;
@@ -138,18 +140,17 @@
 .socialLogo li a {
   color: inherit;
   background: #fff;
-  width: 45px;
-  height: 45px;
+  padding: 0.75rem;
   border-radius: 50%;
-  display: inline-block;
-  text-align: center;
+  display: inline-flex;
+  justify-items: center;
   -webkit-box-shadow: 0 2px 10px rgba(52, 61, 71, 0.2);
   -moz-box-shadow: 0 2px 10px rgba(52, 61, 71, 0.2);
   box-shadow: 0 2px 10px rgba(52, 61, 71, 0.2);
 }
 
 .socialLogo:hover > li:hover a {
-  background: #ffae00;
+  background: #363636;
 }
 
 .socialLogo li a i {

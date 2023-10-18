@@ -30,16 +30,19 @@
 
 .venue-location a {
   display: flex;
-  font-size: 20px;
+  align-items: center;
+  font-size: 1.5rem;
   text-decoration: none;
   gap: 10px;
   font-family: Poppins;
   color: #fff;
   /* gap: 10px; */
 }
-.venue-location a i {
-  color: #ffae00;
+
+.venue-location > a > h4 {
+  margin: 0;
 }
+
 .venue-subheading-right {
   width: 100%;
 }
@@ -54,10 +57,6 @@
 .venue-location {
   display: flex;
   justify-content: center;
-}
-
-.venue-location a i {
-  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 480px) {

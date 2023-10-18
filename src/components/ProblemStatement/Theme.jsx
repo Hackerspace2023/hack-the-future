@@ -1,92 +1,9 @@
 import React, { useState } from "react";
 import "./Theme.css";
+import { ThemeList } from "./data";
 
 const Theme = () => {
-  const [cards] = useState([
-    {
-      frontImage:
-        "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-2ebb2b6f93add843.png",
-      frontText: "Lorem ipsum dolor sit amet consectetur adipisi.",
-      backText: [
-        "Consectetur adipisicing elit. Possimus, praesentium?",
-        "Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.",
-      ],
-    },
-    {
-      frontImage:
-        "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-964edcf0f07211b0.png",
-      frontText: "Lorem ipsum dolor sit amet consectetur adipisi.",
-      backText: [
-        "Consectetur adipisicing elit. Possimus, praesentium?",
-        "Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.",
-      ],
-    },
-    {
-      frontImage:
-        "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-893bc9989a52eba0.png",
-      frontText: "Lorem ipsum dolor sit amet consectetur adipisi.",
-      backText: [
-        "Consectetur adipisicing elit. Possimus, praesentium?",
-        "Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.",
-      ],
-    },
-    {
-      frontImage:
-        "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-2ebb2b6f93add843.png",
-      frontText: "Lorem ipsum dolor sit amet consectetur adipisi.",
-      backText: [
-        "Consectetur adipisicing elit. Possimus, praesentium?",
-        "Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.",
-      ],
-    },
-    {
-      frontImage:
-        "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-964edcf0f07211b0.png",
-      frontText: "Lorem ipsum dolor sit amet consectetur adipisi.",
-      backText: [
-        "Consectetur adipisicing elit. Possimus, praesentium?",
-        "Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.",
-      ],
-    },
-    {
-      frontImage:
-        "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-893bc9989a52eba0.png",
-      frontText: "Lorem ipsum dolor sit amet consectetur adipisi.",
-      backText: [
-        "Consectetur adipisicing elit. Possimus, praesentium?",
-        "Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.",
-      ],
-    },
-    {
-      frontImage:
-        "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-2ebb2b6f93add843.png",
-      frontText: "Lorem ipsum dolor sit amet consectetur adipisi.",
-      backText: [
-        "Consectetur adipisicing elit. Possimus, praesentium?",
-        "Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.",
-      ],
-    },
-    {
-      frontImage:
-        "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-964edcf0f07211b0.png",
-      frontText: "Lorem ipsum dolor sit amet consectetur adipisi.",
-      backText: [
-        "Consectetur adipisicing elit. Possimus, praesentium?",
-        "Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.",
-      ],
-    },
-    {
-      frontImage:
-        "https://s3-us-west-2.amazonaws.com/s.cdpn.io/945546/3433202-893bc9989a52eba0.png",
-      frontText: "Lorem ipsum dolor sit amet consectetur adipisi.",
-      backText: [
-        "Consectetur adipisicing elit. Possimus, praesentium?",
-        "Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.",
-      ],
-    },
-    // Add more cards as needed
-  ]);
-
+  const [cards] = useState(ThemeList);
   const [flippedCardIndex, setFlippedCardIndex] = useState(null);
 
   const handleCardFlip = (index) => {

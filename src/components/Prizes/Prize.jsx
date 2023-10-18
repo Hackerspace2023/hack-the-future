@@ -1,25 +1,8 @@
 import React from "react";
 import "./Prize.css";
+import { cardData } from "./data";
 
 const Prize = () => {
-  const cardData = [
-    {
-      heading: "Welcome To C++",
-      content:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    },
-    {
-      heading: "React World",
-      content:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    },
-    {
-      heading: "Hello World",
-      content:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    },
-  ];
-
   return (
     <div id="Prize">
       <div className="dd_heading">

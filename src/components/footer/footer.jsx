@@ -1,6 +1,9 @@
 import React from "react";
-import Logo from "./assets/hackathon-logo.png";
 import "./footer.css";
+import hackathonLogo from "/images/hackathon-logo.png";
+import { FaLinkedinIn } from "react-icons/fa6";
+import { BsFacebook, BsInstagram } from "react-icons/bs";
+import { IoLocationSharp } from "react-icons/io5";
 
 const footer = () => {
   return (
@@ -8,12 +11,12 @@ const footer = () => {
       <div className="contentContainer">
         <div className="logoContent">
           <a href="/">
-            <img src={Logo} alt="HackerSpace" />
+            <img src={hackathonLogo} alt="HackerSpace" />
           </a>
         </div>
         <div className="venueContent">
-          <h3 className="footerTitle">Venue Location </h3>
           <h4 className="date">28-30 July, 2023</h4>
+          <h3 className="footerTitle">Venue Location </h3>
           <address className="address">
             Meghanad Saha Institute Of Technology, Kolkata <br />
             West Bengal, India
@@ -24,7 +27,7 @@ const footer = () => {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <i className="fa-solid fa-location-dot"></i>
+              <IoLocationSharp />
               <h4>View Map Location</h4>
             </a>
           </div>
@@ -35,17 +38,17 @@ const footer = () => {
             <ul className="socialLogo">
               <li>
                 <a href="/">
-                  <i className="fa-brands fa-facebook-f"></i>
+                  <BsFacebook />
                 </a>
               </li>
               <li>
                 <a href="/">
-                  <i className="fa-brands fa-linkedin-in"></i>
+                  <FaLinkedinIn />
                 </a>
               </li>
               <li>
                 <a href="/">
-                  <i className="fa-brands fa-instagram"></i>
+                  <BsInstagram />
                 </a>
               </li>
             </ul>
