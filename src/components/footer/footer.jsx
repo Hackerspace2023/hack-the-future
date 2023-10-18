@@ -37,17 +37,17 @@ const footer = () => {
             <h3 className="footerTitle">Social Connection</h3>
             <ul className="socialLogo">
               <li>
-                <a href="/">
+                <a href="/" target="_blank">
                   <BsFacebook />
                 </a>
               </li>
               <li>
-                <a href="/">
+                <a href="/" target="_blank">
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li>
-                <a href="/">
+              <li className="instalogo">
+                <a href="/" target="_blank">
                   <BsInstagram />
                 </a>
               </li>
