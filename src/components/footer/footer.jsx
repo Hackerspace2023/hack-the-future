@@ -6,6 +6,8 @@ import { BsFacebook, BsInstagram } from "react-icons/bs";
 import { IoLocationSharp } from "react-icons/io5";
 
 const footer = () => {
+  // get the current year dynamically
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="mainContainer" id="Footer">
       <div className="contentContainer">
@@ -63,7 +65,7 @@ const footer = () => {
       </div>
       <div className="copyContainer">
         <p>
-          <span>©</span> 2023 Hackerspace | Developer <span>MSIT</span>
+          <span>©</span> {currentYear} Hackerspace | Developer <span>MSIT</span>
         </p>
       </div>
     </footer>
