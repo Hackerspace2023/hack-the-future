@@ -12,8 +12,10 @@ import {
   Faq,
   Venue,
   Gallery,
-  Sponser,
+  Sponser
 } from "./components";
+
+import { TopButton } from "./components/TopButton";
 
 const App = () => {
   return (
@@ -30,6 +32,7 @@ const App = () => {
       <Faq />
       <Gallery />
       <Footer />
+      <TopButton />
     </div>
   );
 };
