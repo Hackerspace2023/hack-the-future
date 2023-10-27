@@ -57,6 +57,7 @@ h1 {
   cursor: pointer;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
+  object-fit: contain;
 }
 
 .modal-img,
